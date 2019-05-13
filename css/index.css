@@ -1,0 +1,32 @@
+.cover {
+  height: 100vh;
+  background: url(../static/img/bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+}
+
+.cover .info {
+  text-align: center;
+  color: white;
+  max-width: 450px;
+}
+
+@media (min-width: 425px) {
+  .cover {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 768px) {
+  .cover .container {
+    padding-left: 64px;
+  }
+}

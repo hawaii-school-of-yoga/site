@@ -1,0 +1,100 @@
+.navbar {
+  padding-top: 0;
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-brand img {
+  width: 32px;
+}
+
+.navbar-brand .brand-name-container {
+  margin-left: 16px;
+  margin-top: 32px;
+}
+
+.navbar-brand .brand-name-container a {
+  text-decoration: none;
+}
+
+.navbar-brand .brand-name-container h1,
+.navbar-brand .brand-name-container h2,
+.navbar-brand .brand-name-container h3 {
+  margin: 0;
+  color: #72102c;
+  text-transform: uppercase;
+}
+
+.navbar-brand .brand-name-container h1 {
+  font-size: 140%;
+  font-weight: 100;
+}
+
+.navbar-brand .brand-name-container h1,
+.navbar {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.navbar-brand .brand-name-container h2,
+.navbar-brand .brand-name-container h3 {
+  font-size: 80%;
+  line-height: 50%;
+  letter-spacing: 2px;
+  font-weight: 300;
+}
+
+.navbar-brand .certs-container img {
+  max-width: 150px;
+  margin-top: 8px;
+}
+
+.nav-item.active a {
+  font-weight: bold;
+}
+
+.navbar a {
+  font-weight: 300;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+@media (min-width: 375px) {
+  .navbar-brand img {
+    width: 78px;
+  }
+
+  .navbar-brand .brand-name-container h1 {
+    font-size: 175%;
+  }
+
+  .navbar-brand .brand-name-container h2 {
+    font-size: 100%;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    align-items: flex-start;
+    padding: 8px 54px;
+  }
+
+  .navbar-collapse {
+    flex-direction: column;
+    margin-top: 16px;
+  }
+
+  .navbar-brand img {
+    width: 78px;
+  }
+
+  .navbar-nav.social-icons {
+    font-size: 20px;
+    margin-bottom: -16px;
+  }
+}
