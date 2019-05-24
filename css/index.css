@@ -1,27 +1,32 @@
 .cover {
-  height: 100vh;
+  min-height: 77vh;
+  height: 100%;
   background: url(../static/img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-attachment: fixed;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
 
   padding: 16px;
 }
 
 .cover .info {
+  max-width: 600px;
+  padding: 16px;
+  background: rgba(255, 255, 255, 0.33);
+  border-radius: 8px;
   text-align: center;
-  color: white;
-  max-width: 450px;
 }
 
 @media (min-width: 425px) {
-  .cover {
+  .cover .info {
     justify-content: flex-start;
+    padding-top: 16px;
   }
 }
 
@@ -29,4 +34,26 @@
   .cover .container {
     padding-left: 64px;
   }
+
+  .cover .info {
+    text-align: left;
+  }
+}
+
+#about .container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  max-width: 768px;
+}
+
+#about.section .head-container {
+  padding-bottom: 0;
+}
+
+#about .container .info,
+#about .container .videoWrapper {
+  margin: 8px;
+  text-align: center;
 }

@@ -33,20 +33,20 @@
     </title>
   </head>
   <body>
-    <nav class="container navbar navbar-expand-lg navbar-light fixed-top">
-      <div class="navbar-brand" href="#">
-        <img src="./static/img/logo.png" />
-        <div class="brand-name-container">
-          <a href="#">
-            <h1>Hawaii</h1>
-            <h2>School of Yoga</h2>
-            <h3>Tantra and Ayurveda</h3>
-          </a>
-
-          <div class="certs-container">
-            <a href=""><img src="./static/img/gi_bill.png"/></a>
-            <a href=""><img src="./static/img/my_caa.png"/></a>
+    <nav class="container navbar navbar-expand-lg navbar-light">
+      <div class="left">
+        <div class="navbar-brand" href="#">
+          <img src="./static/img/logo.png" />
+          <div class="brand-name-container">
+            <a href="#">
+              <h1>Hawaii</h1>
+              <h2>School of Yoga, Tantra, Ayurveda</h2>
+            </a>
           </div>
+        </div>
+        <div class="certs-container">
+          <a href=""><img src="./static/img/gi_bill.png"/></a>
+          <a href=""><img src="./static/img/my_caa.png"/></a>
         </div>
       </div>
       <button
@@ -62,23 +62,28 @@
       <div class="collapse navbar-collapse">
         <ul class="navbar-nav ml-auto social-icons">
           <li class="nav-item">
-            <a class="nav-link" href="http://www.facebook.com/Yogalofthawaii">
+            <a
+              class="nav-link fb"
+              href="http://www.facebook.com/Yogalofthawaii"
+            >
               <i class="fab fa-facebook-square"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://www.instagram.com/yogaloft/"
+            <a class="nav-link ig" href="https://www.instagram.com/yogaloft/"
               ><i class="fab fa-instagram"></i>
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://twitter.com/yogalofthawaii"
+            <a
+              class="nav-link twitter"
+              href="https://twitter.com/yogalofthawaii"
               ><i class="fab fa-twitter-square"></i>
             </a>
           </li>
           <li class="nav-item">
             <a
-              class="nav-link"
+              class="nav-link yt"
               href="https://www.youtube.com/user/YogaLoftHawaii"
               ><i class="fab fa-youtube"></i>
             </a>
@@ -90,47 +95,16 @@
               >Home <span class="sr-only">(current)</span></a
             >
           </li>
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Teacher Trainings</a
-            >
-            <div class="dropdown-menu">
-              <a class="dropdown-item highlight" href="#"
-                >About Our Trainings!</a
-              >
-              <a class="dropdown-item highlight" href="#">Apply Today!</a>
-              <a class="dropdown-item" href="#"
-                >Hatha Yoga and Tantra Training</a
-              >
-              <a class="dropdown-item" href="#">300/500 Hour Training</a>
-              <a class="dropdown-item" href="#"
-                >500 Hour Lifestyle Practicioner Training</a
-              >
-              <a class="dropdown-item" href="#"
-                >NASM Corrective Exercise Specialist Certification</a
-              >
-              <a class="dropdown-item" href="#">Training Calendar</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Teacher Trainings
+            </a>
           </li>
 
-          <li class="nav-item dropdown">
-            <a
-              class="nav-link dropdown-toggle"
-              href="#"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false"
-              >Retreats</a
-            >
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Zeny Ogrisseg</a>
-              <a class="dropdown-item" href="#">Lisa Shockoi</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="#">
+              Retreats
+            </a>
           </li>
 
           <li class="nav-item">
@@ -158,15 +132,58 @@
     <div class="cover">
       <div class="container">
         <div class="info">
+          <h3>Living Yogic Tradition</h3>
+          <p>
+            Hawaii School of Yoga offers teacher trainings of a higher standard
+            than other schools in the West. Our trainings focus on Pure
+            Transmission of
+            <strong>Authentic Teachings</strong> from only
+            <strong>Reputable and Time Tested Indian Lineages.</strong>.
+          </p>
+          <div class="btn-container">
+            <a data-scroll href="#about" class="btn btn-primary">
+              A Taste of Authenticity <i class="fab fa-youtube"></i>
+            </a>
+            <a data-scroll href="#certs" class="btn btn-secondary">
+              Our Certifications <i class="fas fa-file-invoice"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about" class="section">
+      <div class="head-container">
+        <h3 class="header">Living Yogic Tradition</h3>
+        <div class="divider"></div>
+        <p class="subtitle">
+          Hawaii School of Yoga offers Authentic Hatha Yoga, Tantra and
+          Ayurvedic Teacher Trainings. Cross the Threshold from Yoga
+          Practicioner to Teacher and bring the Light of
+          <strong>amazing outcome one</strong>,
+          <strong>another great outcome two</strong>,
+          <strong>the cherry on top outcome three</strong> into The World.
+        </p>
+      </div>
+      <div class="container">
+        <div class="videoWrapper">
           <iframe
-            src="https://player.vimeo.com/video/322582248"
-            width="100%"
-            height="300"
+            src="https://player.vimeo.com/video/310719660"
             frameborder="0"
-            allow="autoplay; fullscreen"
-            allowfullscreen
-            class="video-container"
+            webkitAllowFullScreen
+            mozallowfullscreen
+            allowFullScreen
           ></iframe>
+        </div>
+        <div class="info">
+          <div class="btn-container">
+            <a data-scroll href="#about" class="btn btn-primary">
+              View Our Teacher Trainings <i class="fab fa-youtube"></i>
+            </a>
+            <a data-scroll href="#certs" class="btn btn-secondary">
+              Apply Today <i class="fas fa-file-invoice"></i>
+            </a>
+          </div>
         </div>
       </div>
     </div>
@@ -187,6 +204,10 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
     <script src="./js/shared.js"></script>
   </body>
 </html>
