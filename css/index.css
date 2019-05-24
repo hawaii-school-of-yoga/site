@@ -1,5 +1,5 @@
 .cover {
-  min-height: 77vh;
+  min-height: 66vh;
   height: 100%;
   background: url(../static/img/bg.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -56,4 +56,19 @@
 #about .container .videoWrapper {
   margin: 8px;
   text-align: center;
+}
+
+#certs {
+  background: #72102c;
+  color: white !important;
+}
+
+#certs .certs-container {
+  padding: 16px 0 0 0;
+  text-align: center;
+}
+
+#certs .certs-container img {
+  width: 100px;
+  margin: 16px;
 }

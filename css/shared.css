@@ -74,22 +74,28 @@ body {
   white-space: initial;
 }
 
-.navbar .certs-container {
-  display: none;
-}
-
-.certs-container img {
-  max-width: 78px;
-  margin-top: 8px;
+.nav-item a {
+  color: #72102c !important;
 }
 
 .nav-item.active a {
   font-weight: bold;
-  color: #72102c !important;
 }
 
 .nav-item a:hover {
   color: #ffd700 !important;
+}
+
+.nav-item.phone {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 16px;
+}
+
+.nav-item.phone span {
+  margin-left: 4px;
+  font-size: 80%;
 }
 
 .nav-link.fb {
@@ -114,6 +120,9 @@ body {
 }
 
 @media (min-width: 768px) {
+  .navbar-nav {
+    align-items: center;
+  }
   .navbar-brand .brand-name-container h1 {
     font-size: 150%;
   }
@@ -143,11 +152,31 @@ body {
   margin: 2px;
 }
 
+.section {
+  padding: 8px;
+}
+
 .section .head-container {
   padding: 32px 0 32px 0;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
+}
+
+.section .foot-container {
+  padding: 16px 0 16px 0;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.section .foot-container h3 {
+  font-size: 110%;
+}
+
+.section .foot-container p,
+.section .foot-container .btn {
+  font-size: 85%;
 }
 
 .divider {
