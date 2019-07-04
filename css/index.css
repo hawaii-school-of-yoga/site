@@ -18,6 +18,8 @@
   padding: 16px;
 
   position: relative;
+
+  border-top: 4px solid #0047ab;
 }
 
 @media (min-width: 768px) {
@@ -137,7 +139,7 @@
 }
 
 #certs {
-  background: white;
+  background: rgba(255, 255, 255, 0.77);
   color: #0047ab !important;
   border-top: 4px solid #0047ab;
 }

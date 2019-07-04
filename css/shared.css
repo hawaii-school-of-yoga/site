@@ -8,12 +8,25 @@ body {
   background-attachment: fixed;
 }
 
+nav {
+  background: rgba(255, 255, 255, 0.77);
+}
+
+.navbar-nav.links {
+  margin-top: -12px;
+  margin-bottom: 16px;
+}
+
 .nav-item a {
-  color: #72102c !important;
+  color: #0047ab !important;
+  font-size: 24px;
+  font-weight: 300;
 }
 
 .nav-item.active a {
-  font-weight: bold;
+  font-weight: 500;
+  border-bottom: 4px solid #ffd700;
+  padding-bottom: 4px;
 }
 
 .nav-item a:hover {
@@ -25,6 +38,7 @@ body {
   align-items: center;
   justify-content: center;
   margin-left: 16px;
+  color: #0047ab;
 }
 
 .nav-item.phone span {
@@ -69,6 +83,7 @@ body {
 @media (min-width: 992px) {
   .navbar {
     align-items: flex-start;
+    text-transform: uppercase;
   }
 
   .navbar-collapse {
@@ -76,9 +91,13 @@ body {
     margin-top: 16px;
   }
 
-  .navbar-nav.social-icons {
-    font-size: 20px;
-    margin-bottom: -16px;
+  .navbar-nav.social-icons,
+  .navbar-nav.social-icons .nav-item a {
+    font-size: 24px !important;
+  }
+  .nav-item.phone span {
+    margin-left: 8px;
+    padding-bottom: 3px;
   }
 }
 
