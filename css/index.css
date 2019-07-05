@@ -22,6 +22,15 @@
   border-top: 4px solid #0047ab;
 }
 
+.cover nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 9;
+}
+
 @media (min-width: 768px) {
   .cover {
     flex-direction: row;
@@ -36,7 +45,7 @@
 }
 
 .cover .layer {
-  background-color: rgba(255, 255, 255, 0.25);
+  background-color: rgba(255, 255, 255, 0.1);
   position: absolute;
   top: 0;
   left: 0;
@@ -58,8 +67,7 @@
 }
 
 .cover h1,
-.cover h2,
-.cover h3 {
+.cover h2 {
   margin: 0;
   color: #72102c;
   text-transform: uppercase;
@@ -70,11 +78,11 @@
   font-weight: 100;
 }
 
-.cover h2,
-.cover h3 {
+.cover h2 {
   font-size: 108%;
   letter-spacing: 2px;
   white-space: initial;
+  line-height: 100%;
 }
 
 @media (min-width: 425px) {

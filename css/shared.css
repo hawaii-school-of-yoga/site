@@ -7,11 +7,6 @@ body {
   background-size: cover;
   background-attachment: fixed;
 }
-
-nav {
-  background: rgba(255, 255, 255, 0.77);
-}
-
 .navbar-nav.links {
   margin-top: -12px;
   margin-bottom: 16px;
