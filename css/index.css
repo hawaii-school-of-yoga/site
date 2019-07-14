@@ -29,8 +29,7 @@
 }
 
 .cover h1 {
-  font-size: 177%;
-  font-weight: 100;
+  font-size: 216%;
 }
 
 .cover h2 {
@@ -44,7 +43,8 @@
 
 @media (min-width: 425px) {
   .cover h1 {
-    font-size: 220%;
+    font-size: 320%;
+    margin-bottom: -8px;
   }
 
   .cover h2,
@@ -59,7 +59,9 @@
   }
 
   .cover h1 {
-    font-size: 360%;
+    margin-bottom: -16px;
+    font-size: 480%;
+    font-weight: 300;
   }
 
   .cover h2,
@@ -75,7 +77,7 @@
   }
 
   .cover h1 {
-    font-size: 420%;
+    font-size: 500%;
   }
 
   .cover h2,

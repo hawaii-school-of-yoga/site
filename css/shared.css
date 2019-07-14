@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Mukta:200,300,400|Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Mukta:200,300,400");
 
 html {
   box-sizing: border-box;
@@ -23,15 +23,6 @@ body {
   font-weight: 300;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: "Permanent Marker", Impact, Haettenschweiler, "Arial Narrow Bold",
-    sans-serif;
-}
-
 p.highlight {
   background: rgba(0, 0, 0, 0.77);
   padding: 8px;
@@ -50,6 +41,11 @@ p.highlight {
 .cover {
   min-height: 100vh;
   height: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
   display: flex;
   align-items: center;
@@ -185,6 +181,10 @@ p.highlight {
     margin-left: 8px;
     padding-bottom: 3px;
   }
+}
+
+.btn-container {
+  text-align: center;
 }
 
 .btn-container .btn {
