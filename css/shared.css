@@ -85,7 +85,7 @@ p.highlight {
   }
 }
 
-.cover .layer {
+.layer {
   background-color: rgba(255, 255, 255, 0.2);
   position: absolute;
   top: 0;
@@ -193,6 +193,7 @@ p.highlight {
 
 .section {
   padding: 8px;
+  position: relative;
 }
 
 .section.large .block {

@@ -3,22 +3,26 @@ function Retreat(retreat) {
     return host + " ";
   });
 
-  var featureListItems = retreat.features.map(function(feat) {
-    return "<li>" + feat + "</li>";
-  });
+  var featureListItems = retreat.features
+    .map(function(feat) {
+      return "<li>" + feat + "</li>";
+    })
+    .join("");
 
-  var priceListItems = retreat.prices.map(function(price) {
-    return "<li>" + price.cost + ", " + price.note + ".</li>";
-  });
+  var priceListItems = retreat.prices
+    .map(function(price) {
+      return "<li>" + price.cost + ", " + price.note + ".</li>";
+    })
+    .join("");
 
   return (
-    "<div class='retreat'><h2>" +
+    "<div class='retreat'><h4>" +
     retreat.title +
-    "</h2><h3>" +
+    "</h4><h5>" +
     retreat.dates +
-    "</h3><h4>Hosted by " +
+    "</h5><h6>Hosted by " +
     hosts +
-    "</h4><p>" +
+    "</h6><p>" +
     retreat.description +
     "</p><ul>" +
     featureListItems +
@@ -35,6 +39,6 @@ function Retreat(retreat) {
     "<a class='btn btn-secondary' href='" +
     retreat.document +
     "' target='_blank'>Itinereary and Details</a>" +
-    "</div>"
+    "</div></div>"
   );
 }
