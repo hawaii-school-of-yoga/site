@@ -100,3 +100,8 @@ h2 {
 .mission {
   padding-top: 0;
 }
+
+#certs {
+  min-height: auto;
+  border-top: 8px #ffd700 solid;
+}

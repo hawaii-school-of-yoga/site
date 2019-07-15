@@ -21,6 +21,10 @@
   z-index: 9;
 }
 
+.block.vertical {
+  text-align: center;
+}
+
 .cover .layer {
   background-color: rgba(0, 0, 0, 0.2);
 }
@@ -40,19 +44,24 @@ h2 {
   text-align: center;
 }
 
-.section.training-modules {
+.section.training-modules,
+.section.module-info {
   border-top: 8px solid rgba(255, 255, 255, 0.2);
   padding-top: 64px;
   background: rgba(0, 71, 171, 0.9);
   color: white;
 }
 
+.section.training-modules .block,
+.section.module-info .block {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
 .section.training-modules .block {
   display: flex;
   align-items: flex-start;
   justify-content: center;
-  max-width: 900px;
-  margin: 0 auto;
 }
 
 .teacher-training-card {
@@ -66,4 +75,12 @@ h2 {
 
 .teacher-training-card .highlight {
   margin: 8px auto;
+}
+
+.section.module-info {
+  border-top: none;
+}
+
+.section.section.module-info .divider {
+  margin-bottom: 32px;
 }
