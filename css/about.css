@@ -89,6 +89,23 @@ h2 {
   margin: 0 auto;
 }
 
+.container h3 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+@media (min-width: 768px) {
+  .container h3 {
+    text-align: left;
+    margin-top: 0;
+    padding-left: 8px;
+  }
+
+  .container .divider {
+    margin: 8px 0 8px 12px;
+  }
+}
+
 .section.two {
   background: url(../static/img/slides/10.JPG) no-repeat center center fixed;
 }

@@ -312,10 +312,10 @@ p.highlight {
 
 #certs .certs-container {
   padding: 16px 0 0 0;
-  text-align: center;
+  text-align: center !important;
 }
 
 #certs .certs-container img {
-  width: 100px;
+  width: 77px;
   margin: 16px;
 }

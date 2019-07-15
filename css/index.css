@@ -39,6 +39,7 @@
   color: #0047ab;
   font-family: "Mukta", Arial, Helvetica, sans-serif;
   font-weight: 400;
+  margin-bottom: 8px;
 }
 
 @media (min-width: 425px) {
@@ -68,6 +69,9 @@
   .cover h3 {
     max-width: 400px;
     font-size: 220%;
+  }
+  .btn-container {
+    text-align: left;
   }
 }
 
@@ -103,4 +107,8 @@
 #about .container .videoWrapper {
   margin: 8px;
   text-align: center;
+}
+
+footer .btn-container {
+  text-align: center !important;
 }
