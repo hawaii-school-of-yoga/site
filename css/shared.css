@@ -319,3 +319,11 @@ p.highlight {
   width: 77px;
   margin: 16px;
 }
+
+#certs h3,
+#certs .divider {
+  text-align: center !important;
+}
+#certs .divider {
+  margin: 8px auto;
+}
