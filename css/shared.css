@@ -191,40 +191,49 @@ p.highlight {
   margin: 2px;
 }
 
+section,
 .section {
   padding: 8px;
   position: relative;
 }
 
-.section.large .block {
+.section.large .block,
+section.large .block {
   max-width: 1024px;
   margin: 0 auto;
 }
 
-.section .block .header {
+.section .header,
+section .header {
   margin: 24px auto;
+  text-align: center;
 }
 
-.section .head-container {
+.section .head-container,
+section .head-container {
   padding: 32px 0 32px 0;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
 
-.section .foot-container {
+.section .foot-container,
+section .foot-container {
   padding: 16px 0 16px 0;
   max-width: 600px;
   margin: 0 auto;
   text-align: center;
 }
 
-.section .foot-container h3 {
+.section .foot-container h3,
+section .foot-container h3 {
   font-size: 110%;
 }
 
 .section .foot-container p,
-.section .foot-container .btn {
+.section .foot-container .btn,
+section .foot-container p,
+section .foot-container .btn {
   font-size: 85%;
 }
 
