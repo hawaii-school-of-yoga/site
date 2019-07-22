@@ -19,10 +19,12 @@
   z-index: 9;
 }
 
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav span,
-.nav-item.phone {
-  color: white !important;
+@media (min-width: 768px) {
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav span,
+  .nav-item.phone {
+    color: white !important;
+  }
 }
 
 .cover .navbar-collapse {
@@ -42,7 +44,7 @@
 }
 
 .cover .block {
-  z-index: 9;
+  z-index: 2;
   max-width: 768px;
   margin: 0 auto;
 }
