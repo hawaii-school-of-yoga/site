@@ -13,10 +13,12 @@
   position: relative;
 }
 
-.navbar-light .navbar-nav .nav-link,
-.navbar-light .navbar-nav span,
-.nav-item.phone {
-  color: white !important;
+@media (min-width: 900px) {
+  .navbar-light .navbar-nav .nav-link,
+  .navbar-light .navbar-nav span,
+  .nav-item.phone {
+    color: white !important;
+  }
 }
 
 .block {
