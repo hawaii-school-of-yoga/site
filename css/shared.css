@@ -32,6 +32,12 @@ p.highlight {
   text-align: center;
 }
 
+p.highlight.eye-catcher {
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
 @media (min-width: 768px) {
   p.highlight {
     margin: 64px auto;
