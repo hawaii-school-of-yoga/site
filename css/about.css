@@ -6,8 +6,6 @@
   background-size: cover;
 
   color: white;
-
-  padding-top: 80px;
 }
 
 .cover nav {
@@ -17,14 +15,6 @@
   left: 0;
 
   z-index: 9;
-}
-
-@media (min-width: 900px) {
-  .navbar-light .navbar-nav .nav-link,
-  .navbar-light .navbar-nav span,
-  .nav-item.phone {
-    color: white !important;
-  }
 }
 
 .cover .navbar-collapse {
@@ -58,7 +48,7 @@ h2 {
 }
 
 .cover h1 {
-  font-size: 24px;
+  font-size: 3rem;
   margin-bottom: 24px;
 }
 
@@ -67,7 +57,7 @@ h2 {
 }
 
 h2 {
-  font-size: 68px;
+  font-size: 3.33rem;
 }
 
 .section {

@@ -4,6 +4,7 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  background-position: 75% 25%;
 }
 
 @media (min-width: 768px) {
@@ -15,80 +16,6 @@
 .block,
 .cover .img-container {
   z-index: 8;
-}
-
-.cover img {
-  width: 77px;
-}
-
-.cover h1,
-.cover h2 {
-  margin: 0;
-  color: #72102c;
-  text-transform: uppercase;
-}
-
-.cover h1 {
-  font-size: 216%;
-}
-
-.cover h2 {
-  font-size: 108%;
-  white-space: initial;
-  line-height: 100%;
-  color: #0047ab;
-  font-family: "Mukta", Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  margin-bottom: 8px;
-}
-
-@media (min-width: 425px) {
-  .cover h1 {
-    font-size: 320%;
-    margin-bottom: -8px;
-  }
-
-  .cover h2,
-  .cover h3 {
-    font-size: 177%;
-  }
-}
-
-@media (min-width: 768px) {
-  .cover img {
-    width: 108px;
-  }
-
-  .cover h1 {
-    margin-bottom: -16px;
-    font-size: 480%;
-    font-weight: 300;
-  }
-
-  .cover h2,
-  .cover h3 {
-    max-width: 400px;
-    font-size: 220%;
-  }
-  .btn-container {
-    text-align: left;
-  }
-}
-
-@media (min-width: 1440px) {
-  .cover img {
-    width: 144px;
-  }
-
-  .cover h1 {
-    font-size: 500%;
-  }
-
-  .cover h2,
-  .cover h3 {
-    max-width: 500px;
-    font-size: 250%;
-  }
 }
 
 #about .container {

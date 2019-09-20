@@ -60,7 +60,7 @@ p.highlight.eye-catcher {
 
   text-align: center;
 
-  padding: 8px;
+  padding: 8rem 0.5rem 4rem 0.5rem;
 }
 
 .cover nav {
@@ -71,13 +71,7 @@ p.highlight.eye-catcher {
 
   z-index: 99999;
 
-  background: rgba(255, 255, 255, 0.88);
-}
-
-@media (min-width: 900px) {
-  .cover nav {
-    background: transparent;
-  }
+  background: linear-gradient(rgba(9, 9, 121, 0.8), rgba(9, 9, 121, 0));
 }
 
 .cover .navbar-collapse {
@@ -107,103 +101,140 @@ p.highlight.eye-catcher {
   z-index: 0;
 }
 
+.cover .navbar {
+  padding: 0.3rem;
+}
+
+.cover .navbar-brand {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 240px;
+  text-align: left !important;
+}
+
+@media (min-width: 450px) {
+  .cover .navbar-brand {
+    max-width: 320px;
+  }
+}
+
+.cover .navbar-brand img {
+  height: 66px;
+  margin-right: 1rem;
+}
+
+.cover .navbar-brand h1,
+.cover .navbar-brand h2 {
+  margin: 0;
+  color: white;
+  text-transform: uppercase;
+}
+
+.cover .navbar-brand h1 {
+  font-size: 135%;
+  margin-bottom: 2px;
+  font-weight: bold;
+}
+
+.cover .navbar-brand h2 {
+  font-size: 100%;
+  white-space: initial;
+  line-height: 100%;
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin-top: -0.44rem;
+}
+
 .cover .navbar-nav.social-icons {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  margin-top: 1rem;
 }
 
 .cover .navbar-nav.social-icons .nav-item {
   flex-direction: row;
-  margin: 8px;
+  margin: 0 4px;
 }
 
-.navbar-nav.links {
-  margin-top: -16px;
+@media (min-width: 768px) {
+  .navbar-nav.links {
+    margin-top: -0.5rem;
+  }
 }
 
-.nav-item a {
-  color: #0047ab !important;
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
   font-size: 20px;
-  font-weight: 300;
+  font-weight: 200;
 }
 
-.nav-item.active a {
-  font-weight: 500;
-  border-bottom: 4px solid #ffd700;
-  padding-bottom: 4px;
+.navbar-dark .navbar-nav .nav-item.active .nav-link {
+  font-weight: 700;
+  color: #ffdf00;
 }
 
-.nav-item a:hover {
-  color: #ffd700 !important;
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffdf00 !important;
 }
 
 .nav-item.phone {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-left: 16px;
-  color: #0047ab;
-  font-size: 20px;
+  justify-content: flex-start;
+  padding-left: 8px;
+  padding-bottom: 2px;
+  color: white;
+  font-size: 22px;
 }
 
 .nav-item.phone span {
   margin-left: 4px;
+  padding-top: 2px;
   font-size: 80%;
 }
-
-.nav-link.fb {
-  color: #3b5998 !important;
-}
-.nav-link.ig {
-  color: #e4717a !important;
-}
-.nav-link.twitter {
-  color: #1da1f2 !important;
-}
-.nav-link.yt {
-  color: #c4302b !important;
-}
-
 .navbar a {
   font-weight: 300;
 }
 
-.navbar-light .navbar-toggler {
+.navbar-toggler {
   border: none;
+}
+
+.navbar-toggler:focus {
+  outline: 0;
+}
+
+.navbar-nav.social-icons,
+.navbar-nav.social-icons .nav-item a {
+  font-size: 24px !important;
+}
+
+.navbar-nav.social-icons .nav-item a {
+  padding: 0 0.33rem;
+}
+.nav-item.phone span {
+  margin-left: 8px;
+  padding-bottom: 3px;
+  line-height: 1rem;
 }
 
 @media (min-width: 768px) {
   .navbar-nav {
     align-items: center;
   }
-  .navbar-brand .block h1 {
-    font-size: 150%;
-  }
-
-  .navbar-brand .block h2 {
-    font-size: 95%;
-  }
 }
 
 @media (min-width: 992px) {
   .navbar {
     align-items: flex-start;
-    text-transform: uppercase;
   }
 
   .navbar-collapse {
+    align-items: flex-start;
     flex-direction: column;
     margin-top: 16px;
-  }
-
-  .navbar-nav.social-icons,
-  .navbar-nav.social-icons .nav-item a {
-    font-size: 24px !important;
-  }
-  .nav-item.phone span {
-    margin-left: 8px;
-    padding-bottom: 3px;
   }
 }
 
@@ -229,8 +260,8 @@ section.large .block {
 
 .section .header,
 section .header {
-  margin: 24px auto;
-  text-align: center;
+  margin: 1rem auto;
+  text-align: center !important;
 }
 
 .section .head-container,
@@ -298,10 +329,10 @@ section .foot-container .btn {
 }
 
 .divider {
-  height: 2px;
-  background: #ffd700;
+  height: 4px;
+  background: gold;
   width: 100px;
-  margin: 8px auto;
+  margin: 0 auto 1rem auto;
 }
 
 .divider.left {
@@ -341,7 +372,7 @@ section .foot-container .btn {
 #certs {
   background: rgba(255, 255, 255, 0.77);
   color: #0047ab !important;
-  border-top: 8px #ffd700 solid;
+  border-top: 8px white solid;
 }
 
 #certs .certs-container {
