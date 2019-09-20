@@ -26,7 +26,7 @@
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-.cover h1 {
+.cover .block h1 {
   font-family: "Mukta", Arial, Helvetica, sans-serif;
   font-weight: 200;
   letter-spacing: 2px;
@@ -38,7 +38,7 @@
 }
 
 @media (min-width: 768px) {
-  .cover h1 {
+  .cover .block h1 {
     font-size: 68px;
     line-height: 64px;
   }

@@ -76,6 +76,8 @@ p.highlight.eye-catcher {
 
 .cover .navbar-collapse {
   margin-top: 0;
+  justify-content: flex-end;
+  align-items: flex-end;
 }
 
 .fa.fa-navicon {
@@ -129,6 +131,8 @@ p.highlight.eye-catcher {
   margin: 0;
   color: white;
   text-transform: uppercase;
+
+  letter-spacing: 2px;
 }
 
 .cover .navbar-brand h1 {

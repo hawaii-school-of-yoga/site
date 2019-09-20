@@ -13,10 +13,6 @@
   z-index: 9;
 }
 
-.cover .navbar-collapse {
-  margin-top: 0;
-}
-
 @media (min-width: 768px) {
   .cover {
     padding-left: 0%;
