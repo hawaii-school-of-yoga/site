@@ -4,15 +4,6 @@
   color: white;
 }
 
-.cover nav {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-
-  z-index: 9;
-}
-
 @media (min-width: 768px) {
   .cover {
     padding-left: 0%;
