@@ -64,8 +64,14 @@ p.highlight.eye-catcher {
 }
 
 .cover nav {
-  background: linear-gradient(rgba(9, 9, 121, 0.8), rgba(9, 9, 121, 0.05));
+  background: linear-gradient(rgba(9, 9, 121, 1), rgba(9, 9, 121, 0.88));
   z-index: 99999;
+}
+
+@media (min-width: 768px) {
+  .cover nav {
+    background: linear-gradient(rgba(9, 9, 121, 0.8), rgba(9, 9, 121, 0.05));
+  }
 }
 
 .cover .navbar-collapse {
@@ -98,21 +104,18 @@ p.highlight.eye-catcher {
 }
 
 .cover .navbar {
-  padding: 0.3rem;
+  padding: 0.3rem 0 0.3rem 0.5rem;
 }
 
 .cover .navbar-brand {
   display: flex;
   align-items: center;
   justify-content: center;
-  max-width: 240px;
+  max-width: 260px;
   text-align: left !important;
 }
 
 @media (min-width: 450px) {
-  .cover .navbar-brand {
-    max-width: 320px;
-  }
 }
 
 .cover .navbar-brand img {
@@ -136,12 +139,12 @@ p.highlight.eye-catcher {
 }
 
 .cover .navbar-brand h2 {
-  font-size: 100%;
+  font-size: 80%;
   white-space: initial;
   line-height: 100%;
   font-family: "Mukta", Arial, Helvetica, sans-serif;
   font-weight: 200;
-  margin-top: -0.44rem;
+  margin-top: -0.22rem;
 }
 
 .social-icons {
@@ -204,6 +207,7 @@ p.highlight.eye-catcher {
 
 .navbar-toggler {
   border: none;
+  padding: 0.33rem 0.77rem 0.33rem 0;
 }
 
 .navbar-toggler:focus {
