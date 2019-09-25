@@ -186,20 +186,21 @@ p.highlight.eye-catcher {
   color: #ffdf00 !important;
 }
 
+.navbar-dark .nav-item.phone {
+  color: white !important;
+}
+
 .nav-item.phone {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
   padding-left: 8px;
   padding-bottom: 2px;
-  color: white;
+  color: #007bff;
   font-size: 22px;
 }
 
 .nav-item.phone span {
   margin-left: 4px;
   padding-top: 2px;
-  font-size: 80%;
+  font-size: 95%;
 }
 .navbar a {
   font-weight: 300;
