@@ -28,7 +28,7 @@
 }
 
 .certs-container img {
-  width: 66px;
+  width: 77px;
   margin: 0 0.33rem;
 }
 
@@ -39,11 +39,11 @@
   flex-direction: column;
   max-width: 433px;
   height: 100%;
-  padding: 1rem;
+  padding: 0.5rem 1rem;
 
   background-image: linear-gradient(
     to bottom right,
-    rgba(255, 255, 255, 0.44),
+    rgba(255, 255, 255, 0.55),
     rgba(255, 255, 255, 0)
   );
 }
@@ -53,4 +53,9 @@
   margin-top: 0.5rem;
   margin-bottom: 0;
   text-align: center;
+  font-weight: 200;
+}
+
+#about .btn-container {
+  padding: 0.5rem 0 0 0;
 }
