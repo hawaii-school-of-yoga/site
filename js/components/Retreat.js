@@ -32,13 +32,13 @@ function Retreat(retreat) {
     "</p>" +
     "<p>Prices:</p><ul>" +
     priceListItems +
-    "</ul><div class='btn-container'>" +
+    "</ul><div class='btn-container left'>" +
     "<a class='btn btn-primary' href='" +
-    retreat.location +
-    "' target='_blank'>Map Location</a>" +
+    retreat.signUp +
+    "' target='_blank'>Sign Up Today!</a>" +
     "<a class='btn btn-secondary' href='" +
     retreat.document +
-    "' target='_blank'>Itinereary and Details</a>" +
+    "' target='_blank'>More Information</a>" +
     "</div></div>"
   );
 }

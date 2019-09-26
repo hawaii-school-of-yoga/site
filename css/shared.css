@@ -251,6 +251,11 @@ p.highlight.eye-catcher {
   text-align: center;
 }
 
+.btn-container.left {
+  margin-left: 0;
+  text-align: left;
+}
+
 .btn-container .btn {
   margin: 2px;
 }

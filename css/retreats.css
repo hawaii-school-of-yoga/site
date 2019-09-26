@@ -78,21 +78,15 @@ h2 {
 #retreats-container {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
+  justify-content: flex-start;
   flex-wrap: wrap;
 }
 
 .retreat {
-  max-width: 400px;
+  width: 100%;
   border: 4px solid #ffd700;
   padding: 16px;
   margin: 16px;
-}
-
-.retreat h4,
-.retreat h5,
-.retreat h6 {
-  text-align: center;
 }
 
 .retreat p {

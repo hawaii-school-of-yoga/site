@@ -1,60 +1,79 @@
 function getRetreats() {
   return [
     {
-      title: "Costa Rica Yoga Jazz",
-      dates: "June 24 - June 29, 2019",
+      title: "In The Footsteps of the Goddess",
+      dates: "October 17-26, 2020",
       hosts: ["Zenyogini"],
-      description: "",
+      description:
+        "Join Zeny in India for 11 days of Yoga and Pilgrimage to sacred places connected to Shakti, the Goddess.",
       prices: [
         {
-          cost: "$1975",
-          note: "Early Bird, Before February 24th, 2019",
-        },
-        {
-          cost: "$2075",
-          note: "After February 24th, 2019",
+          cost: "$XXX",
+          note: "See More Info Below",
         },
       ],
       deposit: "$500",
       features: [
-        "6 days, 5 nights, double occupancy in a deluxe room at the Rip Jack Inn",
-        "3 healthly, locally sourced organic meals a day",
-        "2 yoga classes daily (morning vinyasa with pranayama and guided meditation, afternoon workshop style)",
-        "Snorkling/Sunset Sailing Tour",
-        "Airport transfers and transportation to Sailing tour",
+        "Experience Indian Culture and Cuisine",
+        "Visit a Shakti Peeth- sacred temples dedicated to the Mother Goddess Shakti",
+        "Participate in Puja- rituals that include chanting and meditation",
+        "Visit ancient cities and heritage sights",
+        "Meet some very special heroes that are making a difference in the lives of women in India",
         "Limited Space!",
       ],
-      location:
-        "https://www.google.com/maps/place/RipJack+Inn/@11.8695773,-86.5364451,6.95z/data=!4m8!3m7!1s0x8f9e3bf825758b95:0x5488f793ef36c912!5m2!4m1!1i2!8m2!3d10.334003!4d-85.846556",
-      document: "GOOGLE DRIVE LINK URL",
+      document: false,
+      signUp:
+        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
     {
-      title: "Costa Rica Yoga Jazz",
-      dates: "June 24 - June 29, 2019",
+      title: "Elephant Conservation and Tea Eco Retreat",
+      dates: "October 2020",
       hosts: ["Zenyogini"],
-      description: "",
+      description:
+        "This is a retreat with a mission.  Every year, the number of wild elephants in India dwindles due to loss of habitat.  You can make a difference by supporting local efforts in India to restore elephant habitat.",
       prices: [
         {
-          cost: "$1975",
-          note: "Early Bird, Before February 24th, 2019",
-        },
-        {
-          cost: "$2075",
-          note: "After February 24th, 2019",
+          cost: "$XXX",
+          note: "See More Info Below",
         },
       ],
       deposit: "$500",
       features: [
-        "6 days, 5 nights, double occupancy in a deluxe room at the Rip Jack Inn",
-        "3 healthly, locally sourced organic meals a day",
-        "2 yoga classes daily (morning vinyasa with pranayama and guided meditation, afternoon workshop style)",
-        "Snorkling/Sunset Sailing Tour",
-        "Airport transfers and transportation to Sailing tour",
+        "See wild Elephants (and other animals) in India in their natural habitat by sleeping in a jungle tree house.",
+        "Visit an Elephant Sanctuary that rescues and rehabilitates ellies-get to touch, hug and take a selfie with these gentle giants.",
+        "Meet India’s first lady of Elephant-friendly tea, in Sikkim, India’s only organic state, and visit a tea plantation, taste and bring home the best chai in the world.",
+        "Hike in pristine forests and walk across the world’s largest root bridge",
+        "Experience the culture and cuisine of Tribals in Northeast India",
         "Limited Space!",
       ],
-      location:
-        "https://www.google.com/maps/place/RipJack+Inn/@11.8695773,-86.5364451,6.95z/data=!4m8!3m7!1s0x8f9e3bf825758b95:0x5488f793ef36c912!5m2!4m1!1i2!8m2!3d10.334003!4d-85.846556",
-      document: "GOOGLE DRIVE LINK URL",
+      document: false,
+      signUp:
+        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+    },
+    {
+      title: "Yoga Heritage Retreat",
+      dates: "February 2021",
+      hosts: ["Zenyogini"],
+      description:
+        "Join Zeny in India for 11 days of Yoga and Pilgrimage to sacred places connected to Shakti, the Goddess.",
+      prices: [
+        {
+          cost: "$XXX",
+          note: "See More Info Below",
+        },
+      ],
+      deposit: "$500",
+      features: [
+        "Experience Indian Culture and Cuisine",
+        "Visit a Shakti Peeth- sacred temples dedicated to the Mother Goddess Shakti",
+        "Participate in Puja- rituals that include chanting and meditation",
+        "Visit ancient cities and heritage sights",
+        "Meet some very special heroes that are making a difference in the lives of women in India",
+        "Limited Space!",
+      ],
+      document: false,
+      signUp:
+        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
   ];
 }
