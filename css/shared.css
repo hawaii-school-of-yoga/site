@@ -147,6 +147,30 @@ p.highlight.eye-catcher {
   margin-top: -0.22rem;
 }
 
+.cover .block h1 {
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 36px;
+  max-width: 768px;
+  margin: 0 auto 1rem auto;
+  line-height: 32px;
+  padding: 1rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.33),
+    rgba(255, 255, 255, 0)
+  );
+}
+
+@media (min-width: 768px) {
+  .cover .block h1 {
+    font-size: 48px;
+    line-height: 42px;
+  }
+}
+
 .social-icons {
   flex-direction: row;
   align-items: center;
