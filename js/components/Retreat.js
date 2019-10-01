@@ -29,10 +29,7 @@ function Retreat(retreat) {
     "</ul>" +
     "<p>Deposit (non-refundanble): " +
     retreat.deposit +
-    "</p>" +
-    "<p>Prices:</p><ul>" +
-    priceListItems +
-    "</ul><div class='btn-container left'>" +
+    "</p><div class='btn-container left'>" +
     "<a class='btn btn-primary' href='" +
     retreat.signUp +
     "' target='_blank'>Sign Up Today!</a>" +
