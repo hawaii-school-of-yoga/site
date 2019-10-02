@@ -1,6 +1,6 @@
 .cover {
   background: url(../static/img/slides/5.JPG) no-repeat center center fixed;
-
+  background-attachment: scroll;
   min-height: 80vh;
   color: white;
 

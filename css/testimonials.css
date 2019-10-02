@@ -1,5 +1,6 @@
 .cover {
   background: url(../static/img/slides/0.JPG) no-repeat center center fixed;
+  background-attachment: scroll;
 
   color: white;
 }

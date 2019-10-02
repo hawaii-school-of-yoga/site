@@ -1,12 +1,11 @@
 .cover {
-  background: url(../static/img/slides/4.JPG) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url(../static/img/slides/paradise.png) no-repeat center center
+    fixed;
   background-attachment: scroll;
 
   color: white;
+
+  min-height: 77vh;
 }
 
 .cover .navbar-collapse {
@@ -16,13 +15,12 @@
 @media (min-width: 768px) {
   .cover {
     padding-left: 0%;
-    text-align: center;
     padding-top: 180px;
   }
-}
 
-.cover .layer {
-  background: rgba(0, 0, 0, 0.33);
+  .cover .block {
+    text-align: center;
+  }
 }
 
 .cover .block {
@@ -40,7 +38,7 @@ h2 {
 }
 
 .cover h1 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 24px;
 }
 
@@ -49,18 +47,18 @@ h2 {
 }
 
 h2 {
-  font-size: 3.33rem;
+  font-size: 68px;
 }
 
 .section {
   background: white;
   background-attachment: fixed;
-  min-height: 100vh;
   border-top: 8px #ffd700 solid;
 
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 32px 8px;
 }
 
 .section .block {
@@ -68,41 +66,12 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
-  max-width: 768px;
+  flex-direction: column;
+  max-width: 900px;
   margin: 0 auto;
 }
 
 .container h3 {
   text-align: center;
   margin-top: 16px;
-}
-
-@media (min-width: 768px) {
-  .container h3 {
-    text-align: left;
-    margin-top: 0;
-    padding-left: 8px;
-  }
-
-  .container .divider {
-    margin: 8px 0 8px 12px;
-  }
-}
-
-.section.two {
-  background: url(../static/img/slides/10.JPG) no-repeat center center fixed;
-}
-
-.section.three {
-  background: url(../static/img/slides/11.JPG) no-repeat center center fixed;
-}
-
-.mission {
-  padding-top: 0;
-}
-
-#certs {
-  min-height: auto;
-  border-top: 8px #ffd700 solid;
 }
