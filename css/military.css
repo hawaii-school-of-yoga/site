@@ -1,0 +1,90 @@
+.cover {
+  background: url(../static/img/slides/military.jpg) no-repeat center center
+    fixed;
+  background-attachment: scroll;
+
+  color: white;
+}
+
+.cover .navbar-collapse {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    padding-left: 0%;
+    padding-top: 180px;
+  }
+
+  .cover .block {
+    text-align: center;
+  }
+}
+
+.cover .block {
+  z-index: 2;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.cover h1,
+h2 {
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cover h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.cover span {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 68px;
+}
+
+.section {
+  background: white;
+  background-attachment: fixed;
+  border-top: 8px #ffd700 solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 8px;
+}
+
+.section .block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.military-offers {
+  flex-direction: column;
+  text-align: center;
+  align-items: flex-start;
+}
+
+.military-offers img {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.military-offers .offer {
+  margin: 4rem 0.5rem;
+}
