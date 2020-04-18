@@ -2,7 +2,7 @@ function getRetreats() {
   return [
     {
       title: "Elephant Conservation and Tea Eco Retreat",
-      dates: "June 2nd - 12th, 2020",
+      dates: "Pending COVID-19",
       hosts: ["Zenyogini"],
       description:
         "This is a retreat with a mission.  Every year, the number of wild elephants in India dwindles due to loss of habitat.  You can make a difference by supporting local efforts in India to restore elephant habitat.",
@@ -28,7 +28,7 @@ function getRetreats() {
     },
     {
       title: "In The Footsteps of the Goddess",
-      dates: "October 17-26, 2020",
+      dates: "Pending COVID-19",
       hosts: ["Zenyogini"],
       description:
         "Join Zeny in India for 11 days of Yoga and Pilgrimage to sacred places connected to Shakti, the Goddess.",
@@ -54,7 +54,7 @@ function getRetreats() {
     },
     {
       title: "Yoga Heritage Retreat: History Comes Alive",
-      dates: "February 2021",
+      dates: "Pending COVID-19",
       hosts: ["Zenyogini"],
       description:
         "Join Zeny in India for 11 days of Yoga and Pilgrimage to sacred places connected to Shakti, the Goddess.",
