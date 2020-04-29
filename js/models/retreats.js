@@ -2,7 +2,7 @@ function getRetreats() {
   return [
     {
       title: "Elephant Conservation and Tea Eco Retreat",
-      dates: "Pending COVID-19",
+      dates: "Dates in 2021 TBD",
       hosts: ["Zenyogini"],
       description:
         "This is a retreat with a mission.  Every year, the number of wild elephants in India dwindles due to loss of habitat.  You can make a difference by supporting local efforts in India to restore elephant habitat.",
@@ -21,14 +21,12 @@ function getRetreats() {
         "Experience the culture and cuisine of Tribals in Northeast India",
         "Limited Space!",
       ],
-      document:
-        "https://docs.google.com/document/d/1oxjV0cgY_KxiUvF5S_lNHRCh9ateW8Cvqunkzh1n91E/edit",
-      signUp:
-        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+      document: "https://docs.google.com/document/d/1oxjV0cgY_KxiUvF5S_lNHRCh9ateW8Cvqunkzh1n91E/edit",
+      signUp: "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
     {
       title: "In The Footsteps of the Goddess",
-      dates: "Pending COVID-19",
+      dates: "Dates in 2021 TBD",
       hosts: ["Zenyogini"],
       description:
         "Join Zeny in India for 11 days of Yoga and Pilgrimage to sacred places connected to Shakti, the Goddess.",
@@ -47,14 +45,12 @@ function getRetreats() {
         "Meet some very special heroes that are making a difference in the lives of women in India",
         "Limited Space!",
       ],
-      document:
-        "https://docs.google.com/document/d/1Vrg65VDU6IS5WqHKx5YN7H_-aqe-LYI32iiJ_g8xf0M/edit",
-      signUp:
-        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+      document: "https://docs.google.com/document/d/1Vrg65VDU6IS5WqHKx5YN7H_-aqe-LYI32iiJ_g8xf0M/edit",
+      signUp: "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
     {
       title: "Yoga Heritage Retreat: History Comes Alive",
-      dates: "Pending COVID-19",
+      dates: "Dates in 2021 TBD",
       hosts: ["Zenyogini"],
       description:
         "Join Zeny in India for 11 days of Yoga and Pilgrimage to sacred places connected to Shakti, the Goddess.",
@@ -73,10 +69,8 @@ function getRetreats() {
         "Meet some very special heroes that are making a difference in the lives of women in India",
         "Limited Space!",
       ],
-      document:
-        "https://docs.google.com/document/d/1p2LZw4JpofHHLtWCCYKx0cFwQxaA2Mnm4lXtNEHMGqQ/edit",
-      signUp:
-        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+      document: "https://docs.google.com/document/d/1p2LZw4JpofHHLtWCCYKx0cFwQxaA2Mnm4lXtNEHMGqQ/edit",
+      signUp: "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
   ];
 }
