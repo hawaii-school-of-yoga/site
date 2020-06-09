@@ -24,12 +24,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .certs-container img {
   width: 77px;
-  margin: 0 0.33rem;
+  margin: 0.33rem;
 }
 
 #about .container {
@@ -41,11 +42,7 @@
   height: 100%;
   padding: 0.5rem 1rem;
 
-  background-image: linear-gradient(
-    to bottom right,
-    rgba(255, 255, 255, 0.55),
-    rgba(255, 255, 255, 0)
-  );
+  background-image: linear-gradient(to bottom right, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0));
 }
 
 #about h3 {
