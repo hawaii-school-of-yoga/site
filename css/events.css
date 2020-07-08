@@ -1,6 +1,5 @@
 .cover {
-  background: url(../static/img/slides/paradise.png) no-repeat center center
-    fixed;
+  background: url(../static/img/events.jpg) no-repeat center center fixed;
   background-attachment: scroll;
 
   color: white;
