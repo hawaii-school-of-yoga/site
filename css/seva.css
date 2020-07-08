@@ -1,0 +1,99 @@
+.cover {
+  background: url(../static/img/charities/women.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+
+  color: white;
+
+  min-height: 77vh;
+}
+
+.cover .navbar-collapse {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    padding-left: 0%;
+    padding-top: 180px;
+  }
+
+  .cover .block {
+    text-align: center;
+  }
+}
+
+.cover .block {
+  z-index: 2;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.cover h1,
+h2 {
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cover h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.cover span {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 68px;
+}
+
+.section {
+  background: white;
+  background-attachment: fixed;
+  border-top: 8px #ffd700 solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 32px 8px;
+}
+
+.section .block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.charities {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.charity {
+  max-width: 380px;
+  margin: 0 16px;
+  border: 2px solid #ffd700;
+}
+
+.charity img {
+  width: 100%;
+}
+
+.charity h2 {
+  text-align: center;
+  font-size: 24px;
+  padding: 16px;
+}
