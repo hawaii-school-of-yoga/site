@@ -86,14 +86,21 @@ h2 {
   max-width: 380px;
   margin: 0 16px;
   border: 2px solid #ffd700;
+  padding-bottom: 16px;
 }
 
 .charity img {
   width: 100%;
+  margin-bottom: 16px;
 }
 
 .charity h2 {
   text-align: center;
   font-size: 24px;
-  padding: 16px;
+}
+
+.charity h2,
+.charity p,
+.charity .btn-container {
+  padding: 0 16px;
 }
