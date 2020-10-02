@@ -143,7 +143,7 @@
                     <p>Ayurveda</p>
                     <img src="./static/img/courses/fire.png" />
                 </a>
-                <a href="#sound" class="icon-link">
+                <a href="#sound-healing" class="icon-link">
                     <div class="overlay"></div>
                     <p>Sound Healing</p>
                     <img src="./static/img/courses/hypnosis.png" />
@@ -234,7 +234,9 @@
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
     <script>
-        var scroll = new SmoothScroll('a[href*="#"]');
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            offset: 80,
+        });
     </script>
 </body>
 
