@@ -1,5 +1,6 @@
 (function () {
   var categories = getCourses();
+  categories.sort((a, b) => a.courses.length < b.courses.length);
 
   var container = document.getElementById(`courses-container`);
 
@@ -8,7 +9,7 @@
       <div id="${category.category}" class="section">
           <div class="block">
               <div class="header">
-                  <h3>${titleCase(category.category)}</h3>
+                  <h3>${category.title}</h3>
                   <div style="margin-top: 16px;" class="divider"></div>
               </div>
           </div>
@@ -17,12 +18,10 @@
             id="${category.category}-courses-container">
             ${
               category.courses.length
-                ? category.courses.map((course) => Course(course))
+                ? category.courses.map((course) => Course(course)).join("")
                 : `
                     <div>
-                      <p>Courses on ${titleCase(
-                        category.category
-                      )} coming soon! Keep up to date by <a href="#footer">subscribing to our email newsletter</a>.</p>
+                      <p>Courses on ${category.title} coming soon! Keep up to date by <a href="#footer">subscribing to our email newsletter</a>.</p>
                     </div>
                   `
             }

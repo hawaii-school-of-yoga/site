@@ -1,11 +1,11 @@
-function Course({ id, title, dates, description, features, pricing, photo, infoLink }) {
+function Course({ id, title, dates, description, features, pricing, photo, infoLink, times }) {
   return `
         <div class="card" style="width: 18rem;">
             <img src="${photo}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${title}</h5>
+                <h6>Starts: ${dates[0]}</h6>
                 <p class="card-text">${description[0].slice(0, 120)}...</p>
-
                 <div class="btn-container">
                     ${infoLink ? `<a target="_blank" class="btn btn-primary" href="${infoLink}">Sign Up Now!</a>` : ""} 
                     <button data-toggle="modal" data-target="#${id}Modal" class="btn btn-secondary">
@@ -26,7 +26,16 @@ function Course({ id, title, dates, description, features, pricing, photo, infoL
                             <img class="modalImg" src="${photo}" />
                             <div class="modal-body-text">
                                 ${description.map((desc) => `<p class="card-text">${desc}</p>`).join("")}
-                                <p><strong>Dates:</strong> ${dates}</p>
+                                <h5>Date(s):</h5>
+                                <ul>${dates.map((date) => `<li>${date}</li>`).join("")}</ul></h5>
+                                ${
+                                  times
+                                    ? `
+                                        <h5>Times:</h5>
+                                        <ul>${times.map((time) => `<li>${time}</li>`).join("")}</ul>
+                                      `
+                                    : ""
+                                }
                                 ${
                                   features
                                     ? `
