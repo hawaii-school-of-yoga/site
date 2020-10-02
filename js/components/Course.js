@@ -1,7 +1,7 @@
 function Course({ id, title, dates, description, features, pricing, photo, infoLink, times }) {
   return `
         <div class="card" style="width: 18rem;">
-            <img src="${photo}" class="card-img-top" alt="...">
+            <img src="./static/img/courses${photo}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${title}</h5>
                 <h6>Starts: ${dates[0]}</h6>
@@ -23,7 +23,7 @@ function Course({ id, title, dates, description, features, pricing, photo, infoL
                             </button>
                         </div>
                         <div class="modal-body">
-                            <img class="modalImg" src="${photo}" />
+                            <img class="modalImg" src="./static/img/courses${photo}" />
                             <div class="modal-body-text">
                                 ${description.map((desc) => `<p class="card-text">${desc}</p>`).join("")}
                                 <h5>Date(s):</h5>
