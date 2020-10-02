@@ -1,0 +1,134 @@
+.cover {
+  background: url(../static/img/events.jpg) no-repeat center center fixed;
+  background-attachment: scroll;
+
+  color: white;
+
+  min-height: 77vh;
+}
+
+.cover .navbar-collapse {
+  margin-top: 0;
+}
+
+@media (min-width: 768px) {
+  .cover {
+    padding-left: 0%;
+    padding-top: 180px;
+  }
+
+  .cover .block {
+    text-align: center;
+  }
+}
+
+.cover .block {
+  z-index: 2;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+.cover h1,
+h2 {
+  font-family: "Mukta", Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.cover h1 {
+  font-size: 2.5rem;
+  margin-bottom: 24px;
+}
+
+.cover span {
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 68px;
+}
+
+.section {
+  background: white;
+  background-attachment: fixed;
+  border-top: 8px #ffd700 solid;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 32px 8px;
+}
+
+.section .block {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.container h3 {
+  text-align: center;
+  margin-top: 16px;
+}
+
+.icon-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.icon-link {
+  background-color: white;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  position: relative;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.icon-link .overlay {
+  z-index: 1;
+  background: rgba(255, 255, 255, 0.5);
+  background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 100%);
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 4px solid gold;
+}
+
+.icon-link p {
+  color: black;
+  position: absolute;
+  z-index: 9;
+  margin-top: 16px;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: bold;
+  padding: 0;
+}
+
+.icon-link img {
+  max-width: 100px;
+  position: absolute;
+  z-index: 0;
+}
+
+.course-container {
+  display: grid;
+}
+
+.course-container .course {
+  max-width: 500px;
+}

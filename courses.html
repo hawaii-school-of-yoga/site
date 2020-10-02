@@ -16,7 +16,7 @@
         integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
 
     <link rel="stylesheet" href="./css/shared.css" />
-    <link rel="stylesheet" href="./css/events.css" />
+    <link rel="stylesheet" href="./css/courses.css" />
 
     <title>
         Hawai'i School of Yoga | Premier Yoga Courses
@@ -29,7 +29,7 @@
             <div class="container">
                 <a class="navbar-brand" href="./index.html">
                     <img src="./static/img/logo.png" />
-                    <div className="text">
+                    <div class="text">
                         <h1>HAWAI'I</h1>
                         <h2>School of Yoga, Tantra, and Ayurveda</h2>
                     </div>
@@ -121,39 +121,75 @@
         </nav>
 
         <div class="block">
-            <h1>Classes, Events and Workshops</h1>
+            <h1>Live Streaming and On-Demand Courses</h1>
             <p class="highlight eye-catcher">
-                We offer online and in-person workshops, master classes and trainings on all things Yoga, Tantra,
-                Ayurveda and Indian culture. Sometimes they are free! Join our mailing list to be notified of upcoming
-                events. Many of our courses are approved for Yoga Alliance continuing education credits.
+                In addition to our signature Yoga Teacher Trainings we offer shorter online courses. Deepen your yoga
+                practice and expand your knowledge with our online offerings featuring workshops, mini courses, seminars
+                and virtual retreats.
             </p>
-            <a href="#classes" class="btn btn-primary">View Class Schedule!</a>
+            <div class="icon-links">
+                <a href="#yoga" class="icon-link">
+                    <div class="overlay"></div>
+                    <p>Yoga</p>
+                    <img src="./static/img/courses/trident.png" />
+                </a>
+                <a href="#tantra" class="icon-link">
+                    <div class="overlay"></div>
+                    <p>Tantra</p>
+                    <img src="./static/img/courses/heart.png" />
+                </a>
+                <a href="#ayurveda" class="icon-link">
+                    <div class="overlay"></div>
+                    <p>Ayurveda</p>
+                    <img src="./static/img/courses/fire.png" />
+                </a>
+                <a href="#sound" class="icon-link">
+                    <div class="overlay"></div>
+                    <p>Sound Healing</p>
+                    <img src="./static/img/courses/hypnosis.png" />
+                </a>
+            </div>
         </div>
     </div>
-    <div id="classes" class="section">
+
+    <div id="yoga" class="section">
         <div class="block">
             <div class="header">
-                <h3>Current Class Schedule</h3>
-                <p style="max-width: 420px; margin: 8px auto">Yoga for a cause. Join our virtual classes help support
-                    the Lalita Samajam orphanage and Village in
-                    South India. <strong>For as little as $13 you can help fight hunger.</strong></p>
-                <div class="btn-container"><a href="./seva.html" class="btn btn-secondary">Learn About Yoga for A
-                        Cause!</a></div>
+                <h3>Yoga</h3>
                 <div style="margin-top: 16px;" class="divider"></div>
             </div>
-            <dl>
-                <dt>Monday 5:30-6:45PM</dt>
-                <dd>Zen Barre with a kick! <br />(A high energy, low impact fusion of Yoga, Barre and Martial Arts)</dd>
-                <dt>Tuesday 7:00-8:15AM</dt>
-                <dd>Classical Hatha Yoga</dd>
-                <dt>Wednesday 5:30-6:45PM</dt>
-                <dd>Vinyasa + Meditation</dd>
-                <dt>Saturday 7:00-8:15AM</dt>
-                <dd>Classical Hatha Yoga</dd>
-            </dl>
-            <p>Send an email to <a href="mailto:zenyhawaiischoolofyoga@gmail.com">zenyhawaiischoolofyoga@gmail.com</a>
-                to receive Zoom links to our virtual classes.</p>
         </div>
+        <div class="course-container" id="yoga-courses-container"></div>
+    </div>
+
+    <div id="tantra" class="section">
+        <div class="block">
+            <div class="header">
+                <h3>Tantra</h3>
+                <div style="margin-top: 16px;" class="divider"></div>
+            </div>
+        </div>
+        <div class="course-container" id="tantra-courses-container"></div>
+    </div>
+
+    <div id="ayurveda" class="section">
+        <div class="block">
+            <div class="header">
+                <h3>Ayurveda</h3>
+                <div style="margin-top: 16px;" class="divider"></div>
+            </div>
+        </div>
+        <div class="course-container" id="ayurveda-courses-container"></div>
+    </div>
+
+    <div id="sound" class="section">
+        <div class="block">
+            <div class="header">
+                <h3>Sound Healing</h3>
+                <div style="margin-top: 16px;" class="divider"></div>
+            </div>
+        </div>
+        <div class="course-container" id="sound-healing-courses-container"></div>
     </div>
 
     <footer id="footer">
@@ -219,6 +255,11 @@
             </form>
         </div>
     </footer>
+
+    <script src="js/_utils/index.js"></script>
+    <script src="js/models/courses.js"></script>
+    <script src="js/components/Course.js"></script>
+    <script src="js/views/courses.js"></script>
 
     <!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
