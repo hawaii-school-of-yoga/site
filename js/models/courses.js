@@ -13,7 +13,7 @@ function getCourses() {
             "The Yoga Sutras of Patanjali were written over 2500 years ago, but its timeless teachings form the foundations of Classical Yoga and outlines the 8 Limbs of Yoga or Ashtanga Yoga (Ashta means 8, anga means part or limb).  In this 8 week series we will study the sutras in depth, and learn why Patanjali was one of the greatest Yoga masters of India.  We will also learn how the Yoga Sutras relate to Tantra and Ayurveda.",
           ],
           features: {
-            title: "Some Lessons from the Yoga Sutras",
+            title: "What You'll Learn",
             items: [
               "How to Increase mental focus and memory",
               "How to Develop emotional resilience and increase joy",
