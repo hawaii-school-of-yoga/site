@@ -126,9 +126,6 @@ h2 {
 }
 
 .course-container {
-  display: grid;
-}
-
-.course-container .course {
-  max-width: 500px;
+  max-width: 1024px;
+  margin: 0 auto;
 }
