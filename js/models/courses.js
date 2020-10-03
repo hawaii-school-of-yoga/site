@@ -37,6 +37,7 @@ function getCourses() {
             },
           ],
           photo: `/patanjali.jpg`,
+          infoLink: "https://forms.gle/3qBm6T927j9aRmKP8",
         },
         {
           id: "mother-moon",
@@ -111,6 +112,7 @@ function getCourses() {
             },
           ],
           photo: `/om.jpg`,
+          infoLink: "https://forms.gle/3qBm6T927j9aRmKP8",
         },
         {
           id: "mantra-sadhana-2",
@@ -145,6 +147,7 @@ function getCourses() {
             },
           ],
           photo: `/shakti.jpg`,
+          infoLink: "https://forms.gle/3qBm6T927j9aRmKP8",
         },
       ],
     },
