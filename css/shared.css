@@ -68,6 +68,11 @@ p.highlight.eye-catcher {
   font-weight: bold;
 }
 
+p.highlight.eye-catcher.inverse {
+  background: rgba(255, 255, 255, 0.77);
+  color: black;
+}
+
 @media (min-width: 768px) {
   p.highlight {
     margin: 64px auto;

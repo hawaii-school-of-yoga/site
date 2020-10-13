@@ -4,7 +4,7 @@ function Course({ id, title, dates, description, features, pricing, photo, infoL
             <img src="./static/img/courses${photo}" class="card-img-top" alt="...">
             <div class="card-body">
                 <h5 class="card-title">${title}</h5>
-                <h6>Starts: ${dates[0]}</h6>
+                <h6>${dates[0]}</h6>
                 <p class="card-text">${description[0].slice(0, 120)}...</p>
                 <div class="btn-container">
                     ${infoLink ? `<a target="_blank" class="btn btn-primary" href="${infoLink}">Sign Up Now!</a>` : ""} 
