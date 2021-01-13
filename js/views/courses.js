@@ -9,7 +9,8 @@
       <div id="${category.category}" class="section">
           <div class="block">
               <div class="header">
-                  <h3>${category.title}</h3>
+              <h3>${category.title}</h3>
+              <p>${category.description}</p>
                   <div style="margin-top: 16px;" class="divider"></div>
               </div>
           </div>
