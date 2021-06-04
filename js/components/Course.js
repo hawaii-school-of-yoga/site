@@ -1,4 +1,13 @@
-function Course({ id, title, description, features, pricing, photo, infoLink, times }) {
+function Course({
+  id,
+  title,
+  description,
+  features,
+  pricing,
+  photo,
+  infoLink,
+  times,
+}) {
   return `
         <div class="card" style="width: 18rem;">
             <img src="./static/img/courses${photo}" class="card-img-top" alt="...">
@@ -6,7 +15,11 @@ function Course({ id, title, description, features, pricing, photo, infoLink, ti
                 <h5 class="card-title">${title}</h5>
                 <p class="card-text">${description[0].slice(0, 120)}...</p>
                 <div class="btn-container">
-                    ${infoLink ? `<a target="_blank" class="btn btn-primary" href="${infoLink}">Sign Up Now!</a>` : ""} 
+                    ${
+                      infoLink
+                        ? `<a target="_blank" class="btn btn-primary" href="${infoLink}">Sign Up Now!</a>`
+                        : ""
+                    } 
                     <button data-toggle="modal" data-target="#${id}Modal" class="btn btn-secondary">
                         Learn More
                     </button>
@@ -24,20 +37,31 @@ function Course({ id, title, description, features, pricing, photo, infoLink, ti
                         <div class="modal-body">
                             <img class="modalImg" src="./static/img/courses${photo}" />
                             <div class="modal-body-text">
-                                ${description.map((desc) => `<p class="card-text">${desc}</p>`).join("")}
+                                ${description
+                                  .map(
+                                    (desc) => `<p class="card-text">${desc}</p>`
+                                  )
+                                  .join("")}
                                 ${
                                   features
                                     ? `
                                     <h5>${features.title}</h5>
                                     <ul>
-                                        ${features.items.map((item) => `<li>${item}</li>`).join("")}
+                                        ${features.items
+                                          .map((item) => `<li>${item}</li>`)
+                                          .join("")}
                                     </ul>
                                   `
                                     : ""
                                 }
                                 <h5>Pricing</h5>
                                 <ul>
-                                    ${pricing.map(({ cost, product }) => `<li>${cost}: ${product}</li>`).join("")}
+                                    ${pricing
+                                      .map(
+                                        ({ cost, product }) =>
+                                          `<li>${cost}: ${product}</li>`
+                                      )
+                                      .join("")}
                                 </ul>
                             </div>
     

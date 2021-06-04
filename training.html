@@ -1,350 +1,469 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 
-<head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
+    <link rel="icon" href="./favicon.ico" type="image/x-icon" />
 
-  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-  <link rel="icon" href="./favicon.ico" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
 
-  <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
-    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./css/shared.css" />
+    <link rel="stylesheet" href="./css/training.css" />
 
-  <link rel="stylesheet" href="./css/shared.css" />
-  <link rel="stylesheet" href="./css/training.css" />
+    <title>Hawai'i School of Yoga | Premier Yoga Courses</title>
+  </head>
 
-  <title>
-    Hawai'i School of Yoga | Premier Yoga Courses
-  </title>
-</head>
+  <body>
+    <div class="cover">
+      <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./static/img/logo.png" />
+            <div className="text">
+              <h1>HAWAI'I</h1>
+              <h2>School of Yoga, Tantra, and Ayurveda</h2>
+            </div>
+          </a>
 
-<body>
-  <div class="cover">
-    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-      <div class="container">
-        <a class="navbar-brand" href="./index.html">
-          <img src="./static/img/logo.png" />
-          <div className="text">
-            <h1>HAWAI'I</h1>
-            <h2>School of Yoga, Tantra, and Ayurveda</h2>
+          <button
+            class="navbar-toggler collapsed"
+            data-target="#navItems"
+            type="button"
+            data-toggle="collapse"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div id="navItems" class="collapse navbar-collapse">
+            <ul class="navbar-nav social-icons">
+              <li class="nav-item">
+                <a
+                  class="nav-link fb"
+                  href="https://www.facebook.com/shaktiheartwaves"
+                >
+                  <i class="fab fa-facebook-square"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link ig"
+                  href="https://www.instagram.com/zenykinskywalker/"
+                  ><i class="fab fa-instagram"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link linkedin"
+                  href="https://www.linkedin.com/in/zeny-ogrisseg-94911748/"
+                  ><i class="fab fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link yt"
+                  href="https://www.youtube.com/channel/UC1RjWKdKQrnu5a3g1y4KqZQ"
+                  ><i class="fab fa-youtube"></i>
+                </a>
+              </li>
+              <li class="nav-item phone">
+                <i class="fas fa-phone-square"></i> <span>(808) 738-6924</span>
+              </li>
+            </ul>
+            <ul class="navbar-nav links">
+              <li class="nav-item">
+                <a class="nav-link" href="./index.html"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./about.html"> Meet Zeny </a>
+              </li>
+
+              <li class="nav-item active">
+                <a class="nav-link" href="./training.html"> YTT Courses </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./courses.html"> Online Courses </a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="./tantric-mentorship.html">
+                  Tantric Mentorship
+                </a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="moreDropdown"
+                  role="button"
+                  data-toggle="dropdown"
+                  aria-haspopup="true"
+                  aria-expanded="false"
+                >
+                  More
+                </a>
+                <div class="dropdown-menu" aria-labelledby="moreDropdown">
+                  <a class="dropdown-item" href="./military.html"> Military </a>
+                  <a class="dropdown-item" href="./retreats.html"> Retreats </a>
+                  <a class="dropdown-item" href="./testimonials.html"
+                    >Testimonials</a
+                  >
+                  <a class="dropdown-item" href="./seva.html">Seva</a>
+                  <a class="dropdown-item" href="./events.html">Events</a>
+                  <a
+                    class="dropdown-item"
+                    target="_blank"
+                    href="https://docs.google.com/document/d/1XXuLlAuXaP1yydePzHpMEOtrcaVhlJLDv0mADk1qKnI/edit"
+                    >Policies</a
+                  >
+                </div>
+              </li>
+            </ul>
           </div>
-        </a>
+        </div>
+      </nav>
 
-        <button class="navbar-toggler collapsed" data-target="#navItems" type="button" data-toggle="collapse"
-          aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="block">
+        <h1 style="width: 100vw; max-width: 700px">EPIC Courses</h1>
+        <div class="divider"></div>
+        <div class="video-container">
+          <div class="video">
+            <iframe
+              src="https://player.vimeo.com/video/362935151"
+              frameborder="0"
+              webkitAllowFullScreen
+              mozallowfullscreen
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div style="margin-top: 1rem" class="btn-container">
+          <a href="#why" class="btn btn-primary">Learn More</a>
+        </div>
+      </div>
+      <div class="layer"></div>
+    </div>
 
-        <div id="navItems" class="collapse navbar-collapse">
-          <ul class="navbar-nav social-icons">
+    <div id="why" class="section why">
+      <div class="container small">
+        <p style="text-align: center; font-weight: bold; font-size: 24px">
+          🔱 Our Courses are Now Online! 🔱 <br />
+          <strong> START ANYTIME!</strong>
+        </p>
+        <div
+          style="margin-top: 1rem; margin-bottom: 3rem"
+          class="btn-container"
+        >
+          <a href="#training" class="btn btn-primary">View Offerings</a>
+        </div>
+        <div class="header">
+          <h2>Why Choose Hawai'i School of Yoga, Tantra and Ayurveda?</h2>
+          <div class="divider"></div>
+        </div>
+        <div class="block">
+          <ul>
+            <li>
+              <strong>Authenticity</strong> - our school is founded upon the
+              authentic gurus and lineage holders of Yoga, Tantra and Ayurveda
+            </li>
+            <li>
+              <strong>Structure</strong> - our approach is systematic and goal
+              oriented to help you succeed in all aspects of becoming a yoga
+              teacher
+            </li>
+            <li>
+              <strong>All Inclusive (Universal)</strong> - our comprehensive
+              trainings incorporate all aspects and styles of yoga, we believe
+              that yoga IS for everybody.
+            </li>
+            <li>
+              <strong>Ethics</strong> - we uphold the Yogic vows (Yamas and
+              Niyamas) of non-harming, truthfulness, non-stealing,
+              self-restraint, non-possesiveness, cleanliness, contentment,
+              self-discipline, cultivation of wisdom through study, and
+              reverence for life.
+            </li>
+            <li>
+              <strong>Ohana</strong> - we value relationship, once you are
+              enrolled in our training, you become family for life.
+            </li>
+          </ul>
+          <div class="btn-container">
+            <a href="#training" class="btn btn-primary">I'm In</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="training" class="section training-modules">
+      <div class="header">
+        <h2>Choose your Teacher Training Path</h2>
+        <div class="divider"></div>
+      </div>
+      <div class="block">
+        <div class="teacher-training-card">
+          <h3>200 Hour Hatha and Tantra Teacher Training</h3>
+          <p class="highlight">Open Enrollment, Start ANYTIME!</p>
+          <p>
+            Become a certified Hatha Yoga and Tantra Teacher with the knowledge,
+            skills and training to create yoga classes and programs that support
+            physical wellness, mental clarity and spiritual growth.
+          </p>
+          <h4>Learning Outcomes:</h4>
+          <ol>
+            <li>
+              You will learn more than poses, you will also learn the history,
+              philosophy and spiritual teachings of yoga.
+            </li>
+
+            <li>Master and learn how to teach poses safely and efficiently.</li>
+
+            <li>Learn how to teach different styles of yoga.</li>
+
+            <li>Learn meditation and how to teach it.</li>
+
+            <li>
+              Learn how to incorporate the spiritual teachings of yoga in a way
+              that respects all faiths.
+            </li>
+          </ol>
+          <div class="btn-container">
+            <a
+              href="https://docs.google.com/document/d/1_suDoO8I2NTYhhMcdOe5D-HUq0D1hpZgkNLCHAd1MbQ/edit?usp=sharing"
+              target="_blank"
+              class="btn btn-primary"
+              >View Syllabus</a
+            >
+            <a
+              href="https://drive.google.com/open?id=1Ww9m54YhnSnVF4228DLfdnotfQUzeuDMoRkbfL4IBLs"
+              target="_blank"
+              class="btn btn-secondary"
+              >Signup Today!</a
+            >
+          </div>
+        </div>
+        <div class="teacher-training-card">
+          <h3>500 Hour Yoga Lifestyle Practicioner Teacher Training</h3>
+          <p class="highlight">Open Enrollment, Start ANYTIME!</p>
+          <p>
+            Depth over time is the formula for developing mastery on the
+            spiritual path. This course is for you if you feel a strong pull to
+            become a spiritual teacher and mentor for others.
+          </p>
+
+          <h4>This course is for you if you are ready to:</h4>
+          <ol>
+            <li>
+              Invest your time and energy to do the inner work that leads to
+              transformation, healing and empowerment.
+            </li>
+
+            <li>
+              Learn how to work with your own spirit (energy) and connect to
+              Source.
+            </li>
+
+            <li>Learn how to use your mind and improve focus.</li>
+
+            <li>Learn how to optimize health through Ayurveda.</li>
+
+            <li>
+              Find fulfillment by discovering your personal power, passion and
+              purpose.
+            </li>
+          </ol>
+          <div class="btn-container">
+            <a
+              href="https://docs.google.com/document/d/1g734Sie3q3l6hkfiB91oNrLyEYTjDY8ChtSeVS_4hYU/edit?usp=sharing"
+              target="_blank"
+              class="btn btn-primary"
+              >View Syllabus</a
+            >
+            <a
+              href="https://drive.google.com/open?id=1Ww9m54YhnSnVF4228DLfdnotfQUzeuDMoRkbfL4IBLs"
+              target="_blank"
+              class="btn btn-secondary"
+              >Signup Today!</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="training" class="section training-modules">
+      <div class="header">
+        <h2>Specialty Trainings!</h2>
+        <div class="divider"></div>
+      </div>
+      <div style="display: flex; align-items: center; justify-content: center">
+        <div>
+          <img width="400px;" src="./static/img/shakti-vibronics.jpg" />
+          <div class="btn-container" style="margin-top: 16px">
+            <a class="btn btn-primary" href="./courses.html#sound-healing"
+              >Sign Up Today</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id=" footer">
+      <div class="container">
+        <div class="block">
+          <h1>Let's Chat!</h1>
+          <p>
+            We'd love to connect with you.  Send an email to
+            <a href="mailto:zenyhawaiischoolofyoga@gmail.com"
+              >zenyhawaiischoolofyoga@gmail.com</a
+            >, or call directly.  Also we have a free guided meditation that
+            we'd love to send to you, just fill in your contact info!
+          </p>
+          <ul class="social-icons">
             <li class="nav-item">
-              <a class="nav-link fb" href="https://www.facebook.com/shaktiheartwaves">
+              <a
+                class="nav-link fb"
+                href="https://www.facebook.com/shaktiheartwaves"
+              >
                 <i class="fab fa-facebook-square"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link ig" href="https://www.instagram.com/zenykinskywalker/"><i class="fab fa-instagram"></i>
+              <a
+                class="nav-link ig"
+                href="https://www.instagram.com/zenykinskywalker/"
+                ><i class="fab fa-instagram"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link linkedin" href="https://www.linkedin.com/in/zeny-ogrisseg-94911748/"><i
-                  class="fab fa-linkedin"></i>
+              <a
+                class="nav-link linkedin"
+                href="https://www.linkedin.com/in/zeny-ogrisseg-94911748/"
+                ><i class="fab fa-linkedin"></i>
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link yt" href="https://www.youtube.com/channel/UC1RjWKdKQrnu5a3g1y4KqZQ"><i
-                  class="fab fa-youtube"></i>
+              <a
+                class="nav-link yt"
+                href="https://www.youtube.com/channel/UC1RjWKdKQrnu5a3g1y4KqZQ"
+                ><i class="fab fa-youtube"></i>
               </a>
             </li>
             <li class="nav-item phone">
               <i class="fas fa-phone-square"></i> <span>(808) 738-6924</span>
             </li>
           </ul>
-          <ul class="navbar-nav links">
-            <li class="nav-item">
-              <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="./about.html">
-                Meet Zeny
-              </a>
-            </li>
-
-            <li class="nav-item active">
-              <a class="nav-link" href="./training.html">
-                YTT Courses
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="./courses.html">
-                Online Courses
-              </a>
-            </li>
-
-            <li class="nav-item">
-              <a class="nav-link" href="./tantric-mentorship.html">
-                Tantric Mentorship
-              </a>
-            </li>
-
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="moreDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                More
-              </a>
-              <div class="dropdown-menu" aria-labelledby="moreDropdown">
-                <a class="dropdown-item" href="./military.html">
-                  Military
-                </a>
-                <a class="dropdown-item" href="./retreats.html">
-                  Retreats
-                </a>
-                <a class="dropdown-item" href="./testimonials.html">Testimonials</a>
-                <a class="dropdown-item" href="./seva.html">Seva</a>
-                <a class="dropdown-item" href="./events.html">Events</a>
-                <a class="dropdown-item" target="_blank"
-                  href="https://docs.google.com/document/d/1XXuLlAuXaP1yydePzHpMEOtrcaVhlJLDv0mADk1qKnI/edit">Policies</a>
-              </div>
-            </li>
-          </ul>
         </div>
+        <form
+          action="https://hawaiischoolofyoga.us20.list-manage.com/subscribe/post?u=72e1828eb62bb91690d7560f8&amp;id=3f6d0db884"
+          method="post"
+          id="mc-embedded-subscribe-form"
+          name="mc-embedded-subscribe-form"
+          class="validate"
+          novalidate
+        >
+          <p></p>
+          <div class="form-group">
+            <label for="mce-EMAIL">Email Address</label>
+            <input
+              type="email"
+              autocomplete="given-name"
+              name="EMAIL"
+              class="required email form-control"
+              id="mce-EMAIL"
+            />
+          </div>
+          <div class="form-group">
+            <label for="mce-FNAME">First Name</label>
+            <input
+              type="text"
+              value=""
+              name="FNAME"
+              class="form-control"
+              id="mce-FNAME"
+            />
+          </div>
+          <div id="mce-responses" class="clear">
+            <div
+              class="response"
+              id="mce-error-response"
+              style="display: none"
+            ></div>
+            <div
+              class="response"
+              id="mce-success-response"
+              style="display: none"
+            ></div>
+          </div>
+          <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+          <div style="position: absolute; left: -5000px" aria-hidden="true">
+            <input
+              type="text"
+              name="b_72e1828eb62bb91690d7560f8_3f6d0db884"
+              tabindex="-1"
+              value=""
+            />
+          </div>
+          <div class="clear">
+            <button
+              class="btn btn-info"
+              type="submit"
+              value="Connect Today!"
+              name="subscribe"
+              id="mc-embedded-subscribe"
+              class="button"
+            >
+              Connect Today!
+            </button>
+          </div>
+        </form>
       </div>
-    </nav>
+    </footer>
 
-    <div class="block">
-      <h1 style="width: 100vw; max-width: 700px;">EPIC Courses</h1>
-      <div class="divider"></div>
-      <div class="video-container">
-        <div class="video">
-          <iframe src="https://player.vimeo.com/video/362935151" frameborder="0" webkitAllowFullScreen
-            mozallowfullscreen allowFullScreen></iframe>
-        </div>
-      </div>
-      <div style="margin-top: 1rem" class="btn-container"><a href="#why" class="btn btn-primary">Learn More</a></div>
-    </div>
-    <div class="layer"></div>
-  </div>
-
-  <div id="why" class="section why">
-    <div class="container small">
-      <p style="text-align: center; font-weight: bold; font-size: 24px;">🔱 Our Courses are Now Online! 🔱
-        <br /> <strong> START ANYTIME!</strong></p>
-      <div style="margin-top: 1rem; margin-bottom: 3rem;" class="btn-container">
-        <a href="#training" class="btn btn-primary">View Offerings</a>
-      </div>
-      <div class="header">
-        <h2>Why Choose Hawai'i School of Yoga, Tantra and Ayurveda?</h2>
-        <div class="divider"></div>
-      </div>
-      <div class="block">
-        <ul>
-          <li>
-            <strong>Authenticity</strong> - our school is founded upon the authentic gurus and lineage holders of Yoga,
-            Tantra and Ayurveda
-          </li>
-          <li>
-            <strong>Structure</strong> - our approach is systematic and goal oriented to help you succeed in all aspects
-            of becoming a yoga teacher
-          </li>
-          <li>
-            <strong>All Inclusive (Universal)</strong> - our comprehensive trainings incorporate all aspects and styles
-            of
-            yoga, we believe that yoga IS for everybody.
-          </li>
-          <li>
-            <strong>Ethics</strong> - we uphold the Yogic vows (Yamas and Niyamas) of non-harming, truthfulness,
-            non-stealing, self-restraint, non-possesiveness, cleanliness, contentment, self-discipline, cultivation of
-            wisdom through study, and reverence for life.
-          </li>
-          <li>
-            <strong>Ohana</strong> - we value relationship, once you are enrolled in our training, you become family
-            for life.
-          </li>
-        </ul>
-        <div class="btn-container"><a href="#training" class="btn btn-primary">I'm In</a></div>
-      </div>
-    </div>
-  </div>
-
-  <div id="training" class="section training-modules">
-    <div class="header">
-      <h2>Choose your Teacher Training Path</h2>
-      <div class="divider"></div>
-    </div>
-    <div class="block">
-      <div class="teacher-training-card">
-        <h3>200 Hour Hatha and Tantra Teacher Training</h3>
-        <p class="highlight">Open Enrollment, Start ANYTIME!</p>
-        <p>Become a certified Hatha Yoga and Tantra Teacher with the knowledge, skills and training to create yoga
-          classes and programs that support physical wellness, mental clarity and spiritual growth.
-        </p>
-        <h4>Learning Outcomes:</h4>
-        <ol>
-          <li>
-            You will learn more than poses, you will also learn the history, philosophy and spiritual teachings of
-            yoga.
-          </li>
-
-          <li>
-            Master and learn how to teach poses safely and efficiently.
-          </li>
-
-          <li>
-            Learn how to teach different styles of yoga.
-          </li>
-
-          <li>
-            Learn meditation and how to teach it.
-          </li>
-
-          <li>
-            Learn how to incorporate the spiritual teachings of yoga in a way that respects all faiths.
-          </li>
-        </ol>
-        <div class="btn-container">
-          <a href="https://docs.google.com/document/d/1_suDoO8I2NTYhhMcdOe5D-HUq0D1hpZgkNLCHAd1MbQ/edit?usp=sharing"
-            target="_blank" class="btn btn-primary">View Syllabus</a>
-          <a href="https://drive.google.com/open?id=1Ww9m54YhnSnVF4228DLfdnotfQUzeuDMoRkbfL4IBLs" target="_blank"
-            class="btn btn-secondary">Signup Today!</a>
-        </div>
-      </div>
-      <div class="teacher-training-card">
-        <h3>500 Hour Yoga Lifestyle Practicioner Teacher Training</h3>
-        <p class="highlight">Open Enrollment, Start ANYTIME!</p>
-        <p>Depth over time is the formula for developing mastery on the spiritual path. This course is for you if you
-          feel a strong pull to become a spiritual teacher and mentor for others.</p>
-
-        <h4>This course is for you if you are ready to:</h4>
-        <ol>
-          <li>
-            Invest your time and energy to do the inner work that leads to transformation, healing and empowerment.
-          </li>
-
-          <li>
-            Learn how to work with your own spirit (energy) and connect to Source.
-          </li>
-
-          <li>
-            Learn how to use your mind and improve focus.
-          </li>
-
-          <li>
-            Learn how to optimize health through Ayurveda.
-          </li>
-
-          <li>
-            Find fulfillment by discovering your personal power, passion and purpose.
-          </li>
-        </ol>
-        <div class="btn-container">
-          <a href="https://docs.google.com/document/d/1g734Sie3q3l6hkfiB91oNrLyEYTjDY8ChtSeVS_4hYU/edit?usp=sharing"
-            target="_blank" class="btn btn-primary">View Syllabus</a>
-          <a href="https://drive.google.com/open?id=1Ww9m54YhnSnVF4228DLfdnotfQUzeuDMoRkbfL4IBLs" target="_blank"
-            class="btn btn-secondary">Signup Today!</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <div id="training" class="section training-modules">
-    <div class="header">
-      <h2>Specialty Trainings!</h2>
-      <div class="divider"></div>
-    </div>
-    <div style="display: flex; align-items: center; justify-content: center;">
-      <div>
-        <img width="400px;" src="./static/img/shakti-vibronics.jpg" />
-        <div class="btn-container" style="margin-top: 16px">
-          <a class="btn btn-primary" href="./courses.html#sound-healing">Sign Up Today</a>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <footer id=" footer">
-    <div class="container">
-      <div class="block">
-        <h1>Let's Chat!</h1>
-        <p>
-          We'd love to connect with you.  Send an email to <a
-            href="mailto:zenyhawaiischoolofyoga@gmail.com">zenyhawaiischoolofyoga@gmail.com</a>, or call directly. 
-          Also
-          we
-          have a free guided meditation that we'd love to send to you, just fill in your contact info!
-        </p>
-        <ul class="social-icons">
-          <li class="nav-item">
-            <a class="nav-link fb" href="https://www.facebook.com/shaktiheartwaves">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link ig" href="https://www.instagram.com/zenykinskywalker/"><i class="fab fa-instagram"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link linkedin" href="https://www.linkedin.com/in/zeny-ogrisseg-94911748/"><i
-                class="fab fa-linkedin"></i>
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link yt" href="https://www.youtube.com/channel/UC1RjWKdKQrnu5a3g1y4KqZQ"><i
-                class="fab fa-youtube"></i>
-            </a>
-          </li>
-          <li class="nav-item phone">
-            <i class="fas fa-phone-square"></i> <span>(808) 738-6924</span>
-          </li>
-        </ul>
-      </div>
-      <form
-        action="https://hawaiischoolofyoga.us20.list-manage.com/subscribe/post?u=72e1828eb62bb91690d7560f8&amp;id=3f6d0db884"
-        method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" novalidate>
-        <p></p>
-        <div class="form-group">
-          <label for="mce-EMAIL">Email Address</label>
-          <input type="email" autocomplete="given-name" name="EMAIL" class="required email form-control" id="mce-EMAIL">
-        </div>
-        <div class="form-group">
-          <label for="mce-FNAME">First Name</label>
-          <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME">
-        </div>
-        <div id="mce-responses" class="clear">
-          <div class="response" id="mce-error-response" style="display:none"></div>
-          <div class="response" id="mce-success-response" style="display:none"></div>
-        </div>
-        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text"
-            name="b_72e1828eb62bb91690d7560f8_3f6d0db884" tabindex="-1" value=""></div>
-        <div class="clear"><button class="btn btn-info" type="submit" value="Connect Today!" name="subscribe"
-            id="mc-embedded-subscribe" class="button">Connect Today!</button></div>
-      </form>
-    </div>
-  </footer>
-
-  <!-- Optional JavaScript -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-  <script>
-    var scroll = new SmoothScroll('a[href*="#"]', {
-      offset: 80,
-    });
-  </script>
-</body>
-
+    <!-- Optional JavaScript -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script>
+      var scroll = new SmoothScroll('a[href*="#"]', {
+        offset: 80,
+      });
+    </script>
+  </body>
 </html>

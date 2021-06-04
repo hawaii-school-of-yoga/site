@@ -1,4 +1,4 @@
-(function() {
+(function () {
   var testimonials = getTestimonials();
   var container = document.getElementById("testimonials-container");
   var HTML = "";

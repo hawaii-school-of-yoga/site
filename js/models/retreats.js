@@ -21,8 +21,10 @@ function getRetreats() {
         "Experience the culture and cuisine of Tribals in Northeast India",
         "Limited Space!",
       ],
-      document: "https://docs.google.com/document/d/1oxjV0cgY_KxiUvF5S_lNHRCh9ateW8Cvqunkzh1n91E/edit",
-      signUp: "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+      document:
+        "https://docs.google.com/document/d/1oxjV0cgY_KxiUvF5S_lNHRCh9ateW8Cvqunkzh1n91E/edit",
+      signUp:
+        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
     {
       title: "In The Footsteps of the Goddess",
@@ -45,8 +47,10 @@ function getRetreats() {
         "Meet some very special heroes that are making a difference in the lives of women in India",
         "Limited Space!",
       ],
-      document: "https://docs.google.com/document/d/1Vrg65VDU6IS5WqHKx5YN7H_-aqe-LYI32iiJ_g8xf0M/edit",
-      signUp: "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+      document:
+        "https://docs.google.com/document/d/1Vrg65VDU6IS5WqHKx5YN7H_-aqe-LYI32iiJ_g8xf0M/edit",
+      signUp:
+        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
     {
       title: "Yoga Heritage Retreat: History Comes Alive",
@@ -69,8 +73,10 @@ function getRetreats() {
         "Meet some very special heroes that are making a difference in the lives of women in India",
         "Limited Space!",
       ],
-      document: "https://docs.google.com/document/d/1p2LZw4JpofHHLtWCCYKx0cFwQxaA2Mnm4lXtNEHMGqQ/edit",
-      signUp: "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
+      document:
+        "https://docs.google.com/document/d/1p2LZw4JpofHHLtWCCYKx0cFwQxaA2Mnm4lXtNEHMGqQ/edit",
+      signUp:
+        "https://docs.google.com/forms/d/1Xhfg-gaDYYTCjKLXRnXZd7CKXUsqZVrIUSc351FTFqc/edit",
     },
   ];
 }

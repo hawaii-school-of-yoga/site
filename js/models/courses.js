@@ -31,7 +31,8 @@ function getCourses() {
             },
             {
               cost: "$250",
-              product: "Vidoes + Study Guide, CEC's, 1 Private Coaching Session",
+              product:
+                "Vidoes + Study Guide, CEC's, 1 Private Coaching Session",
             },
           ],
           photo: `/patanjali.jpg`,

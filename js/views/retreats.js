@@ -1,4 +1,4 @@
-(function() {
+(function () {
   var retreats = getRetreats();
   var container = document.getElementById("retreats-container");
   var HTML = "";

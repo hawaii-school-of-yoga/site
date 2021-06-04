@@ -1,16 +1,16 @@
 function Retreat(retreat) {
-  var hosts = retreat.hosts.map(function(host, i) {
+  var hosts = retreat.hosts.map(function (host, i) {
     return host + " ";
   });
 
   var featureListItems = retreat.features
-    .map(function(feat) {
+    .map(function (feat) {
       return "<li>" + feat + "</li>";
     })
     .join("");
 
   var priceListItems = retreat.prices
-    .map(function(price) {
+    .map(function (price) {
       return "<li>" + price.cost + ", " + price.note + ".</li>";
     })
     .join("");

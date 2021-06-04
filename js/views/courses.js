@@ -15,7 +15,9 @@
               </div>
           </div>
           <div
-            class="course-container ${category.courses.length ? "card-columns" : ""}" 
+            class="course-container ${
+              category.courses.length ? "card-columns" : ""
+            }" 
             id="${category.category}-courses-container">
             ${
               category.courses.length
