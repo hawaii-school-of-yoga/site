@@ -61,17 +61,142 @@ function getCourses() {
           infoLink: "https://janetconner.com/product/mother-moon-yoga/",
           productLink: "",
         },
+        {
+          id: "misfits",
+          title:
+            "Mystics, Misfits and Saints: Yoga History through the lives of the Gurus",
+          description: [
+            "Can history be exciting? In the case of Yoga history absolutely!  Learn about Yoga's exciting and fascinating History through the lives of Mystics Yogis who had magical powers, Sages who live in  freezing Himalayan caves, living Fire benders, breatharians, Yogis who could teleport  and much more.  We will explore yoga in all its facets, which is much more than posture. We will learn the context and function of yoga as a holistic science of integrating body, mind and spirit, a science of cultivating and experiencing physical, mental and spiritual well-being.",
+            "10 CEC's for RYT's",
+          ],
+          pricing: [
+            {
+              cost: "$120",
+              product: "Complete module",
+            },
+          ],
+          photo: `/shiva.webp`,
+        },
+        {
+          id: "zazen",
+          title: "Intro to Zazen Meditation",
+          description: [
+            "Learn the art of Zazen or traditional  Japanese meditation, the meditation of ninjas which cultivates deep mental focus, and concentration. Learn to recognize unhealthy thought patterns and how to cultivate lazer like clarity of mind.",
+          ],
+          pricing: [
+            {
+              cost: "$35",
+              product: "Complete module",
+            },
+          ],
+          photo: `/zen.png`,
+        },
       ],
     },
     {
       category: "tantra",
       title: "Tantra",
-      courses: [],
+      courses: [
+        {
+          id: "karma-reincarnation",
+          title: "Karma and Reincarnation",
+          description: [
+            "Karma and Reincarnation are key beliefs in the Indian spiritual traditions.  Learn the mechanisms that drive reincarnation and Yogic methods to transform negative karmic patterns in both Hindu and Buddhist traditions.",
+          ],
+          pricing: [
+            {
+              cost: "$35",
+              product: "Complete module",
+            },
+          ],
+          photo: `/reincarnation.jpg`,
+        },
+        {
+          id: "chakras-kundalini",
+          title: "The Chakras and Kundalini From the Source Texts",
+          description: [
+            "The Chakras are perhaps the most mysterious and intriguing aspect of the Indian Spiritual traditions.  What are they?  What did the Yogis actually do with them? This 20 hour course includes 10 videos of lecture and authentic practices to awaken and activate the chakras based on source texts, and rooted in authentic Tantric lineages.  We will also learn how most of the teachings on the chakras are distortions by Western new agers not rooted in tradition, but appropriated ideas.  You will learn about the Chakras in their original context.",
+            "This is an extremely informative and intense workshop that involves deep soul work.  This is one of the important teachings a Yogi can receive as Chakra Yoga, sometimes called Kundalini Yoga is the direct path towards Spiritual Fulfillment.",
+            "20 CEC's for RYT's",
+          ],
+          pricing: [
+            {
+              cost: "$180",
+              product: "20 Hour 10 Video Complete Module",
+            },
+          ],
+          photo: `/chakras.jpg`,
+        },
+        {
+          id: "tantra-history",
+          title: "Tantra History and Philosophy",
+          description: [
+            "Take a virtual journey through India with Zeny and explore the roots of Tantra.  Zeny has traveled extensively all over India, tracing the footsteps of the Goddess, visiting mountain shrines, ancient rivers, and many temples connected to the Divine Mother. Learn the empowering teachings of Tantra, the geographical and cultural roots of Kundalini and living traditions of Shakti based Tantra.",
+            "6 CEC's for RYT's",
+          ],
+          pricing: [
+            {
+              cost: "$108",
+              product: "Complete Module",
+            },
+          ],
+          photo: `/ardhanarishvara.jpg`,
+        },
+        {
+          id: "shakti",
+          title: "Awakening Shakti:  Kundalini Mantras for the Divine Feminine",
+          description: [
+            "In the class you will learn about the Triple Goddesses of Tantra- Kali, Lakshmi and Saraswati.  Learn what they symbolize, and how to invoke the powers of the goddess within you through mantra and sacred ritual.",
+            "6 CEC's for RYT's",
+          ],
+          pricing: [
+            {
+              cost: "$108",
+              product: "Complete Module",
+            },
+          ],
+          photo: `/adi-shakti.webp`,
+        },
+      ],
     },
     {
       category: "ayurveda",
       title: "Ayurveda",
-      courses: [],
+      courses: [
+        {
+          id: "fundamentals",
+          title: "Ayurveda Fundamentals Bundle",
+          description: [
+            "Explore the foundational teachings of Ayurveda.  Ayurveda, the sister science of Yoga means the Science of Life, and is one of the most ancient healing traditions of the world that started in Kerala, India.  Ayurveda's natural methods of optimizing health are time tested, proven and easy to integrate into your everyday life.  In this course we explore the 3 pillars of health in Ayurveda, and everyday practices to increase immunity, promote longevity and enhance sexuality.",
+          ],
+          pricing: [
+            {
+              cost: "$150",
+              product: "Course Access",
+            },
+            {
+              cost: "$200",
+              product:
+                "Course Access + 1:1 Ayurvedic Accessment and Consultation with Zeny",
+            },
+          ],
+          photo: `/adi-shakti.webp`,
+        },
+        {
+          id: "ayurvedic-sex",
+          title: "Ayurvedic Sex:  The Greatest Sex Ever!",
+          description: [
+            " Let's face it, human beings are obsessed with sex.  It is one of the greatest pleasures in the human experience.  But where Tantra gets all the attention in terms of sex, Ayurveda actually has a lot more to say than Tantra when it comes to sexuality. Where 'Tantric' sex is based on fantasy, Ayurvedic sex is rooted in science.  In this mini course we will explore how sex is understood in Ayurveda to promote health and longevity, without the crazy acrobatic postures. And the #1 secret to mind-blowing sex from a 2000+ year old Ayurvedic text.",
+          ],
+          pricing: [
+            {
+              cost: "$60",
+              product: "Complete module",
+            },
+          ],
+          photo: `/sex-temple.jpeg`,
+        },
+      ],
     },
     {
       category: "sound-healing",

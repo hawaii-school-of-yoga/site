@@ -1,6 +1,5 @@
 (function () {
   var categories = getCourses();
-  categories.sort((a, b) => a.courses.length < b.courses.length);
 
   var container = document.getElementById(`courses-container`);
 
@@ -10,7 +9,7 @@
           <div class="block">
               <div class="header">
               <h3>${category.title}</h3>
-              <p>${category.description}</p>
+              ${category.description ? `<p>${category.description}</p>` : ""}
                   <div style="margin-top: 16px;" class="divider"></div>
               </div>
           </div>

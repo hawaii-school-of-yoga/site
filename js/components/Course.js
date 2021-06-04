@@ -6,7 +6,6 @@ function Course({
   pricing,
   photo,
   infoLink,
-  times,
 }) {
   return `
         <div class="card" style="width: 18rem;">
