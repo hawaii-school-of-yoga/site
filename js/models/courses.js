@@ -180,7 +180,7 @@ function getCourses() {
                 "Course Access + 1:1 Ayurvedic Accessment and Consultation with Zeny",
             },
           ],
-          photo: `/adi-shakti.webp`,
+          photo: `/ayurveda.jpg`,
         },
         {
           id: "ayurvedic-sex",
