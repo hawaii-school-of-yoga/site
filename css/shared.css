@@ -53,6 +53,15 @@ p.inline-md {
   }
 }
 
+p.mini-blurb {
+  background: rgba(255, 255, 255, 0.69);
+  padding: 8px;
+  margin: 16px auto;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+}
+
 p.highlight {
   background: rgba(0, 0, 0, 0.77);
   padding: 8px;
@@ -189,7 +198,11 @@ p.highlight.eye-catcher.inverse {
   margin: 0 auto 1rem auto;
   line-height: 32px;
   padding: 1rem;
-  background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.33), rgba(255, 255, 255, 0));
+  background-image: linear-gradient(
+    to bottom right,
+    rgba(0, 0, 0, 0.33),
+    rgba(255, 255, 255, 0)
+  );
 }
 
 @media (min-width: 768px) {
