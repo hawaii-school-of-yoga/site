@@ -151,53 +151,19 @@
 
       <div class="block">
         <h1>Concerts and Sound Healing</h1>
-        <!-- <p class="highlight eye-catcher">
-          We offer online and in-person workshops, master classes and trainings
-          on all things Yoga, Tantra, Ayurveda and Indian culture. Sometimes
-          they are free! Join our mailing list to be notified of upcoming
-          events. Many of our courses are approved for Yoga Alliance continuing
-          education credits.
-        </p> -->
-        <a href="#classes" class="btn btn-primary">View Upcoming Schedule!</a>
+        <a href="#schedule" class="btn btn-primary">View Upcoming Schedule!</a>
       </div>
     </div>
-    <div id="classes" class="section">
-      <div class="block">
-        <!-- <div class="header">
-          <h3>Current Class Schedule</h3>
-          <p style="max-width: 420px; margin: 8px auto">
-            Join our virtual classes via Zoom, for just $10. Proceeds help
-            support the Lalita Samajam orphanage
-          </p>
-          <div class="btn-container">
-            <a href="./seva.html" class="btn btn-secondary"
-              >Learn About Yoga for A Cause!</a
-            >
-          </div>
-          <div style="margin-top: 16px" class="divider"></div>
-        </div> -->
-        <!-- <dl>
-          <dt>Monday 5:30-6:45PM</dt>
-          <dd>
-            Zen Barre with a kick! <br />(A high energy, low impact fusion of
-            Yoga, Barre and Martial Arts)
-          </dd>
-          <dt>Tuesday 7:00-8:15AM</dt>
-          <dd>Classical Hatha Yoga</dd>
-          <dt>Wednesday 5:30-6:45PM</dt>
-          <dd>Vinyasa + Meditation</dd>
-          <dt>Saturday 7:00-8:15AM</dt>
-          <dd>Classical Hatha Yoga</dd>
-        </dl> -->
-        <p>
-          Send an email to
-          <a href="mailto:zenyhawaiischoolofyoga@gmail.com"
-            >zenyhawaiischoolofyoga@gmail.com</a
-          >
-          to receive Zoom links to our virtual classes.
-        </p>
+
+    <section id="schedule">
+      <div class="header">
+        <h1>Upcoming Events Schedule</h1>
+        <div class="divider"></div>
       </div>
-    </div>
+      <div class="container">
+        <div class="row" id="events-container"></div>
+      </div>
+    </section>
 
     <footer id="footer">
       <div class="container">
@@ -310,6 +276,10 @@
         </form>
       </div>
     </footer>
+
+    <script src="js/_utils/index.js"></script>
+    <script src="js/models/events.js"></script>
+    <script src="js/views/events.js"></script>
 
     <!-- Optional JavaScript -->
     <script

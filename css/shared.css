@@ -109,7 +109,7 @@ p.highlight.eye-catcher.inverse {
 
 .cover nav {
   background: linear-gradient(rgba(9, 9, 121, 1), rgba(9, 9, 121, 0.88));
-  z-index: 99999;
+  z-index: 9999;
 }
 
 @media (min-width: 768px) {
